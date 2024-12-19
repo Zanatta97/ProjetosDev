@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/02/22 21:10:39.000.733,=C:\Users\TEMP.SINODAL.096\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/11/08 18:17:01.000.657,=C:\Users\TEMP.SINODAL.096\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/11/08 18:22:40.000.500,Z:\Samuel Zanatta\trabalho urna\telaPrincipal.dfm=C:\Users\TEMP.SINODAL.096\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/11/08 18:22:40.000.500,Z:\Samuel Zanatta\trabalho urna\telaPrincipal.pas=C:\Users\TEMP.SINODAL.096\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/11/08 18:24:59.000.625,Z:\Samuel Zanatta\trabalho urna\trabalhoUrna.dproj=C:\Users\TEMP.SINODAL.096\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/11/08 18:25:59.000.900,=Z:\Samuel Zanatta\trabalho urna\Unit2.pas</Transaction>
+    <Transaction>2018/11/08 18:35:47.000.280,Z:\Samuel Zanatta\trabalho urna\telaVotar.pas=Z:\Samuel Zanatta\trabalho urna\Unit2.pas</Transaction>
+    <Transaction>2018/11/08 18:35:47.000.280,Z:\Samuel Zanatta\trabalho urna\telaVotar.dfm=Z:\Samuel Zanatta\trabalho urna\Unit2.dfm</Transaction>
+    <Transaction>2018/11/08 19:32:43.000.419,=Z:\Samuel Zanatta\trabalho urna\Unit3.pas</Transaction>
+    <Transaction>2018/11/08 19:33:33.000.289,Z:\Samuel Zanatta\trabalho urna\Unit3.dfm=Z:\Samuel Zanatta\trabalho urna\telaCadastro.dfm</Transaction>
+    <Transaction>2018/11/08 19:33:33.000.289,Z:\Samuel Zanatta\trabalho urna\Unit3.pas=Z:\Samuel Zanatta\trabalho urna\telaCadastro.pas</Transaction>
+    <Transaction>2018/11/08 20:14:07.000.522,=Z:\Samuel Zanatta\trabalho urna\Unit1.pas</Transaction>
+    <Transaction>2018/11/08 20:21:05.000.137,Z:\Samuel Zanatta\trabalho urna\Unit1.pas=Z:\Samuel Zanatta\trabalho urna\telaApuracao.pas</Transaction>
+    <Transaction>2018/11/08 20:21:05.000.137,Z:\Samuel Zanatta\trabalho urna\Unit1.dfm=Z:\Samuel Zanatta\trabalho urna\telaApuracao.dfm</Transaction>
+    <Transaction>2018/11/09 09:12:42.000.964,=C:\Users\Cliente\Desktop\    \delphi\trabalho urna\Unit1.pas</Transaction>
+    <Transaction>2018/11/09 09:12:59.000.457,C:\Users\Cliente\Desktop\    \delphi\trabalho urna\UnitClasses.pas=C:\Users\Cliente\Desktop\    \delphi\trabalho urna\Unit1.pas</Transaction>
+    <Transaction>2018/11/12 10:29:04.000.290,=C:\Users\Cliente\Desktop\    \delphi\trabalho urna\Unit2.pas</Transaction>
+    <Transaction>2018/11/12 10:30:13.000.871,C:\Users\Cliente\Desktop\    \delphi\trabalho urna\Unit2.pas=C:\Users\Cliente\Desktop\    \delphi\trabalho urna\telaCadastroPartido.pas</Transaction>
+    <Transaction>2018/11/12 10:30:13.000.871,C:\Users\Cliente\Desktop\    \delphi\trabalho urna\Unit2.dfm=C:\Users\Cliente\Desktop\    \delphi\trabalho urna\telaCadastroPartido.dfm</Transaction>
+    <Transaction>2018/11/22 18:49:00.000.570,=D:\trabalho urna\ModelSupport_trabalhoUrna\default.txaPackage</Transaction>
+    <Transaction>2018/11/22 19:42:00.000.070,=D:\trabalho urna\Unit1.pas</Transaction>
+    <Transaction>2018/11/22 19:42:24.000.763,=D:\trabalho urna\Unit2.pas</Transaction>
+    <Transaction>2018/11/22 19:42:38.000.122,=D:\trabalho urna\Unit3.pas</Transaction>
+    <Transaction>2018/11/22 19:43:09.000.982,=D:\trabalho urna\Unit4.pas</Transaction>
+    <Transaction>2018/11/22 19:44:01.000.596,D:\trabalho urna\Unit1.dfm=D:\trabalho urna\telaVotarFederal.dfm</Transaction>
+    <Transaction>2018/11/22 19:44:01.000.596,D:\trabalho urna\Unit1.pas=D:\trabalho urna\telaVotarFederal.pas</Transaction>
+    <Transaction>2018/11/22 19:44:12.000.448,D:\trabalho urna\Unit4.pas=D:\trabalho urna\telaVotarSenador.pas</Transaction>
+    <Transaction>2018/11/22 19:44:12.000.448,D:\trabalho urna\Unit4.dfm=D:\trabalho urna\telaVotarSenador.dfm</Transaction>
+    <Transaction>2018/11/22 19:44:27.000.827,D:\trabalho urna\Unit3.dfm=D:\trabalho urna\telaVotarGovernador.dfm</Transaction>
+    <Transaction>2018/11/22 19:44:27.000.827,D:\trabalho urna\Unit3.pas=D:\trabalho urna\telaVotarGovernador.pas</Transaction>
+    <Transaction>2018/11/22 19:44:38.000.300,D:\trabalho urna\Unit2.pas=D:\trabalho urna\telaVotarPresidente.pas</Transaction>
+    <Transaction>2018/11/22 19:44:38.000.300,D:\trabalho urna\Unit2.dfm=D:\trabalho urna\telaVotarPresidente.dfm</Transaction>
+    <Transaction>2018/11/23 09:01:05.000.387,=E:\trabalho urna\Unit1.pas</Transaction>
+    <Transaction>2018/11/23 09:04:04.000.471,E:\trabalho urna\Unit1.dfm=E:\trabalho urna\telaFim.dfm</Transaction>
+    <Transaction>2018/11/23 09:04:04.000.471,E:\trabalho urna\Unit1.pas=E:\trabalho urna\telaFim.pas</Transaction>
+    <Transaction>2018/11/26 14:00:00.000.484,=E:\trabalho urna\Unit1.pas</Transaction>
+    <Transaction>2018/11/26 14:04:59.000.275,E:\trabalho urna\Unit1.dfm=E:\trabalho urna\telaListar.dfm</Transaction>
+    <Transaction>2018/11/26 14:04:59.000.275,E:\trabalho urna\Unit1.pas=E:\trabalho urna\telaListar.pas</Transaction>
+    <Transaction>2018/11/26 14:07:28.000.247,E:\trabalho urna\telaListar.pas=</Transaction>
+    <Transaction>2018/12/05 17:04:16.000.731,C:\Users\guilh\OneDrive\Área de Trabalho\ \Programação\Trabalho Urna\trabalho urna\telaCadastroPartido.pas=</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="ModelSupport_trabalhoUrna"/>
+    <File Path="ModelSupport_trabalhoUrna\default.txaPackage"/>
+    <File Path="telaApuracao.pas"/>
+    <File Path="telaApuracao.dfm"/>
+    <File Path="telaCadastro.pas"/>
+    <File Path="telaCadastro.dfm"/>
+    <File Path="telaFim.pas"/>
+    <File Path="telaFim.dfm"/>
+    <File Path="telaPrincipal.pas"/>
+    <File Path="telaPrincipal.dfm"/>
+    <File Path="telaVotar.pas"/>
+    <File Path="telaVotar.dfm"/>
+    <File Path="telaVotarFederal.pas"/>
+    <File Path="telaVotarFederal.dfm"/>
+    <File Path="telaVotarGovernador.pas"/>
+    <File Path="telaVotarGovernador.dfm"/>
+    <File Path="telaVotarPresidente.pas"/>
+    <File Path="telaVotarPresidente.dfm"/>
+    <File Path="telaVotarSenador.pas"/>
+    <File Path="telaVotarSenador.dfm"/>
+    <File Path="UnitClasses.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>

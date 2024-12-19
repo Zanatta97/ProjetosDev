@@ -1,0 +1,9 @@
+Tela SPLASH - Confirma se está logado ou não e pega os dados necessários
+
+Tela Login
+
+Tela Cadastro
+
+Tela Principal
+
+Tela Fila

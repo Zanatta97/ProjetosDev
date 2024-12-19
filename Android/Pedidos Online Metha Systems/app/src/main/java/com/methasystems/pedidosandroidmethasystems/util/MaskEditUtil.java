@@ -1,0 +1,107 @@
+package com.methasystems.pedidosandroidmethasystems.util;
+
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.widget.EditText;
+import android.widget.TextView;
+
+public abstract class MaskEditUtil {
+
+    public static final String FORMAT_CPF = "###.###.###-##";
+    public static final String FORMAT_FONE = "(##)#####-####";
+    public static final String FORMAT_CEP = "#####-###";
+    public static final String FORMAT_DATE = "##/##/####";
+    public static final String FORMAT_HOUR = "##:##:##";
+    public static final String FORMAT_CNPJ = "##.###.###/####-##";
+
+    /**
+     * Método que deve ser chamado para realizar a formatação
+     *
+     * @param ediTxt
+     * @param mask
+     * @return
+     *
+     * Como Chamar o Método:
+     *
+     * editTextCpf.addTextChangedListener(MaskEditUtil.mask(editTextCpf, MaskEditUtil.FORMAT_CPF));
+     */
+    public static TextWatcher mask(final EditText ediTxt, final String mask) {
+        return new TextWatcher() {
+            boolean isUpdating;
+            String old = "";
+
+            @Override
+            public void afterTextChanged(final Editable s) {}
+
+            @Override
+            public void beforeTextChanged(final CharSequence s, final int start, final int count, final int after) {}
+
+            @Override
+            public void onTextChanged(final CharSequence s, final int start, final int before, final int count) {
+                final String str = MaskEditUtil.unmask(s.toString());
+                String mascara = "";
+                if (isUpdating) {
+                    old = str;
+                    isUpdating = false;
+                    return;
+                }
+                int i = 0;
+                for (final char m : mask.toCharArray()) {
+                    if (m != '#' && str.length() > old.length()) {
+                        mascara += m;
+                        continue;
+                    }
+                    try {
+                        mascara += str.charAt(i);
+                    } catch (final Exception e) {
+                        break;
+                    }
+                    i++;
+                }
+                isUpdating = true;
+                ediTxt.setText(mascara);
+                ediTxt.setSelection(mascara.length());
+            }
+        };
+    }
+
+    public static String mascaraCNPJ(String s){
+        //07.397.635/0001-13
+        if (s.length() != 14) {
+            return s;
+        } else {
+            String newString = s.substring(0, 0 + 2)
+                    + "."
+                    + s.substring(2, 2 + 3)
+                    + "."
+                    + s.substring(5, 5 + 3)
+                    + "/"
+                    + s.substring(8, 8 + 4)
+                    + "-"
+                    + s.substring(12, 12 + 2);
+            return newString;
+        }
+    }
+
+    public static String mascaraCPF(String s){
+        //041.871.320-07
+
+        if (s.length() != 11) {
+            return s;
+        } else {
+            String newString = s.substring(0, 0 + 3)
+                    + "."
+                    + s.substring(3, 3 + 3)
+                    + "."
+                    + s.substring(6, 6 + 3)
+                    + "-"
+                    + s.substring(9, 9 + 2);
+            return newString;
+        }
+
+    }
+
+    public static String unmask(final String s) {
+        return s.replaceAll("[.]", "").replaceAll("[-]", "").replaceAll("[/]", "").replaceAll("[(]", "").replaceAll("[ ]","").replaceAll("[:]", "").replaceAll("[)]", "");
+    }
+}

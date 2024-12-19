@@ -1,0 +1,113 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ComboBox1: TComboBox
+    Position.X = 48.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object guerreiro: TListBoxItem
+      TabOrder = 0
+      Text = 'GUERREIRO'
+    end
+    object barbaro: TListBoxItem
+      TabOrder = 1
+      Text = 'BARBARO'
+    end
+    object ladino: TListBoxItem
+      TabOrder = 2
+      Text = 'LADINO'
+    end
+    object mago: TListBoxItem
+      TabOrder = 3
+      Text = 'MAGO'
+    end
+    object ranger: TListBoxItem
+      TabOrder = 4
+      Text = 'RANGER'
+    end
+  end
+  object ComboBox2: TComboBox
+    Position.X = 360.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object elfo: TListBoxItem
+      TabOrder = 0
+      Text = 'ELFO'
+    end
+    object anao: TListBoxItem
+      TabOrder = 1
+      Text = 'AN'#195'O'
+    end
+    object halfling: TListBoxItem
+      TabOrder = 2
+      Text = 'HALFLING'
+    end
+    object humano: TListBoxItem
+      TabOrder = 3
+      Text = 'HUMANO'
+    end
+    object gnomo: TListBoxItem
+      TabOrder = 4
+      Text = 'GNOMO'
+    end
+    object meioorc: TListBoxItem
+      TabOrder = 5
+      Text = 'MEIO-ORC'
+    end
+  end
+  object lbClasse: TLabel
+    Position.X = 48.000000000000000000
+    Position.Y = 72.000000000000000000
+    Text = 'CLASSE'
+    TabOrder = 5
+  end
+  object lbRaca: TLabel
+    Position.X = 360.000000000000000000
+    Position.Y = 72.000000000000000000
+    Text = 'RA'#199'A'
+    TabOrder = 2
+  end
+  object edNome: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 6
+    Position.X = 48.000000000000000000
+    Position.Y = 32.000000000000000000
+    Hint = 'Nome'
+    Size.Width = 401.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object lbdescricaoraca: TLabel
+    Position.X = 360.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 153.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.VertAlign = Leading
+    TabOrder = 4
+  end
+  object lbdescricaoclasse: TLabel
+    Position.X = 48.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 153.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.VertAlign = Leading
+    TabOrder = 3
+  end
+end

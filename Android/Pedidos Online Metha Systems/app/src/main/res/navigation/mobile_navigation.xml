@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.methasystems.pedidosandroidmethasystems.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_vendas"
+        android:name="com.methasystems.pedidosandroidmethasystems.ui.vendas.VendasFragment"
+        android:label="@string/menu_venda"
+        tools:layout="@layout/fragment_vendas" >
+        <argument
+            android:name="codVenda"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_cliente"
+        android:name="com.methasystems.pedidosandroidmethasystems.ui.clientes.ClientesFragment"
+        android:label="@string/menu_clientes"
+        tools:layout="@layout/fragment_clientes" />
+
+    <fragment
+        android:id="@+id/nav_produtos"
+        android:name="com.methasystems.pedidosandroidmethasystems.ui.produtos.ProdutosFragment"
+        android:label="@string/menu_produtos" />
+    <fragment
+        android:id="@+id/nav_list_vendas"
+        android:name="com.methasystems.pedidosandroidmethasystems.ui.listaVendas.ListVendas"
+        android:label="@string/menu_lista_vendas"/>
+</navigation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="num_remessa">Número da Remessa</string>
+    <string name="informa_remessa">Favor informar o Número da Remessa a ser recebida</string>
+    <string name="salvar">SALVAR</string>
+</resources>

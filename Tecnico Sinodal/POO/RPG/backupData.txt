@@ -1,0 +1,102 @@
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 11.2
+-- Dumped by pg_dump version 11.2
+
+-- Started on 2019-05-13 14:50:33
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+SET row_security = off;
+
+--
+-- TOC entry 2854 (class 0 OID 24661)
+-- Dependencies: 196
+-- Data for Name: ataquefeitico; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.ataquefeitico (codigo, nome, descricao, tipo, descricaotipo, danobase, tipobonus, descricaobonus) FROM stdin;
+\.
+
+
+--
+-- TOC entry 2855 (class 0 OID 24667)
+-- Dependencies: 197
+-- Data for Name: classes; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.classes (codigoclasse, nome, descricao, forcabase, destrezabase, constbase, inteligenciabase, sabedoriabase, carismabase, pvbase) FROM stdin;
+1	BÁRBARO	Bárbaros são guerreiros de origem selvagem, por sua distância da civilização, \n eles utilizam a força bruta, ou seja, atacam com mais violência e aguentam mais dano. \n Bárbaros dão preferência a armas grandes, como machados e espadas de duas mãos. Contudo não são muito inteligentes.	5	3	4	1	2	1	45
+3	LADINO	Ladinos são uma classe de ladrões furtivos e escorregadios. \n Apesar disso são muito úteis no grupo de batalha como batedores e com seus ataques furtivos, \n são inteligentes a ponto de derrotar mais poderoso dos inimigos, utilizando somente estratégias.	3	5	3	4	5	4	35
+4	MAGO	Magos têm o poder de utilizar os poderes naturais e elementais \n como Terra, Fogo, água, ar e os poderes da natureza. A arma que o Mago utiliza geralmente é um cajado que contém os poderes.\n Os Magos são fisicamente fracos, contudo são muito sábios.	1	2	2	5	5	4	25
+5	RANGER	Rangers sabem usar todas as armas de longo alcance, sendo assim , muito habilidosos em combate. \n São acostumados com o ambiente selvagem, sabem de coisas relativas a esse meio, \n o que geralmente os torna excelente rastreadores e caçadores, bem como peritos em sobrevivência, \n por sua ligação natural.	2	3	1	4	4	4	20
+2	GUERREIRO	Guerreiros sabem usar todos os tipos de armaduras e escudos, \n o uso de escudos é frequentemente usado nesta classe. Sua função no combate é de "Defensor" (Tanque), \n ou seja, a linha de frente do combate. Mas também pode assumir as funções de "Agressor" (Dano).	4	2	5	2	3	3	50
+\.
+
+
+--
+-- TOC entry 2857 (class 0 OID 24676)
+-- Dependencies: 199
+-- Data for Name: itens; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.itens (codigoitem, nome, descricao, tamanho, tipo, raridade, bonusatributo) FROM stdin;
+\.
+
+
+--
+-- TOC entry 2859 (class 0 OID 24685)
+-- Dependencies: 201
+-- Data for Name: racas; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.racas (codigoraca, nome, descricao, forcabase, destrezabase, constbase, inteligenciabase, sabedoriabase, carismabase, pvbase) FROM stdin;
+\.
+
+
+--
+-- TOC entry 2858 (class 0 OID 24682)
+-- Dependencies: 200
+-- Data for Name: personagens; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.personagens (codigopersonagem, nomepersonagem, codigousuario, codigoraca, codigoclasse, nivel, xp, pvtotal, pvatual, forca, destreza, constituicao, inteligencia, sabedoria, carisma, armaatual, armaduraatual, tamanhoinv) FROM stdin;
+\.
+
+
+--
+-- TOC entry 2856 (class 0 OID 24673)
+-- Dependencies: 198
+-- Data for Name: inventario; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.inventario (codigo, codigoitem, codigopersonagem) FROM stdin;
+\.
+
+
+--
+-- TOC entry 2860 (class 0 OID 24691)
+-- Dependencies: 202
+-- Data for Name: usuarios; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.usuarios (codigousuario, login, senha, codigopersonagem1, codigopersonagem2, codigopersonagem3, ultimologin, ultimologoff, horasjogadas) FROM stdin;
+1	ZanattaGamer	123456789	\N	\N	\N	\N	\N	\N
+2	fodase	123	\N	\N	\N	\N	\N	\N
+\.
+
+
+-- Completed on 2019-05-13 14:50:33
+
+--
+-- PostgreSQL database dump complete
+--
+

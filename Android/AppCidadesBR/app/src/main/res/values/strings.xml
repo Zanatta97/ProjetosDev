@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppCidadesBR</string>
+    <string name="txt_app_cidades_spinner">App Cidades | Spinner</string>
+    <string name="txt_estado_uf">Estados (UF)</string>
+    <string name="txt_resultado_nada_selecionado">Resultado: Nada Selecionado</string>
+    <string name="txt_municipio">Municípios</string>
+    <string name="txt_regioes">Regiões</string>
+</resources>

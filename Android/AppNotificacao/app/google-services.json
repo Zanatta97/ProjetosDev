@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "887742095409",
+    "firebase_url": "https://app-notificacao-szs.firebaseio.com",
+    "project_id": "app-notificacao-szs",
+    "storage_bucket": "app-notificacao-szs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887742095409:android:822644fad94f40e9687510",
+        "android_client_info": {
+          "package_name": "com.example.appnotificacao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887742095409-3u2qbg0hr5bqh84db97v8uvd5ovitutu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHpCBCYPW2qRZO_upDay8-oY_0smkY6w0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887742095409-3u2qbg0hr5bqh84db97v8uvd5ovitutu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

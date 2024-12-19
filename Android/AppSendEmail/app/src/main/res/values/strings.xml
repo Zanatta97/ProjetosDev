@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppSendEmail</string>
+    <string name="titulo">App Enviar e-mail</string>
+    <string name="destinatario">Destinatário:</string>
+    <string name="assunto">Assunto:</string>
+    <string name="mensagem">Mensagem:</string>
+    <string name="hintDestino">E-mail</string>
+    <string name="enviar">Enviar</string>
+
+</resources>

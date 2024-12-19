@@ -1,0 +1,190 @@
+$section_title_color: $color_11;
+$section_content_color: $color_11;
+
+.about-us {
+   text-align: center;
+   padding: 40px 0;
+
+
+   .about-us-title {
+      
+      text-align: left;
+
+      h3 {
+         font-size: 22px;
+         font-family: 'Raleway', sans-serif;
+         font-weight: 700;
+         margin-top: 30px;
+         margin-bottom: 8px;
+         color: $section_title_color;
+         text-transform: uppercase
+      }
+
+      hr {
+         margin: 0;
+         
+      }
+   }
+
+   img {
+      float: right;
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+      margin-bottom: 12px;
+   }
+   .about-us-text {
+      text-align: left;
+
+      p {
+         color: $section_content_color;
+         font-family: 'Lato', sans-serif;
+         font-weight: normal;
+         font-size: 16px;
+         line-height: 28px;
+      }
+   }
+
+}
+
+
+
+
+/* **********************************************************************************************
+***********************************   MEDIA QUERIES   ******************************************* 
+********************************************************************************************** */
+
+
+
+
+// Small Screens ****************************************************************************
+/* max-width 640px *********************************************************************/
+
+@media only screen and (max-width: 40em) {
+   .about-us {
+      
+      .about-us-title { 
+        
+         hr {
+            margin-bottom: 20px;
+            
+         }
+      }
+   }
+   
+}   
+// End of small Screens
+   
+   
+   
+// Medium Screens ***************************************************************************
+/* min-width 641px and max-width 1023px ************************************************/
+
+@media only screen and (min-width: 40.063em) and (max-width: 63.938em) {
+   
+   .about-us {
+
+      .about-us-title {
+         padding: 40px 0;
+   
+         h3 {
+            font-size: 24px;
+         }
+      }
+
+      img {
+         width: 26%;
+         margin-left: 12px;
+         margin-bottom: 8px;
+      }
+
+      .about-us-text {
+         
+         p {
+            font-size: 16px;
+         }
+
+      }
+   }
+
+}
+
+// End of Medium Screens
+   
+   
+   
+   
+// Large Screens ****************************************************************************
+/* min-width 1024px and max-width 1440px ***********************************************/
+
+@media only screen and (min-width: 64em) and (max-width: 90em) { 
+   
+   .about-us {
+      
+
+      .about-us-title {
+         padding: 40px 0;
+   
+         h3 {
+            font-size: 26px;
+         }
+      }
+
+      img {
+         width: 20%;
+         margin-left: 12px;
+         margin-bottom: 8px;
+      }
+
+      .about-us-text {
+         
+         p {
+            font-size: 18px;
+         }
+
+      }
+   }
+
+   
+}
+
+// End of Large Screens
+   
+   
+   
+// Extra Large Screens **********************************************************************
+/* min-width 1441px ********************************************************************/
+
+@media only screen and (min-width: 90.063em) {
+   
+   .about-us {
+      
+      .about-us-title {
+         padding: 40px 0;
+   
+         h3 {
+            font-size: 28px;
+         }
+      }
+
+      
+        
+         img {
+            width:20%;
+            margin-left: 12px;
+            margin-bottom: 8px;
+         }
+      
+
+      .about-us-text {
+         
+         p {
+            font-size: 18px;
+         }
+
+      }
+   }
+         
+}
+
+// End of Extra Large Screens

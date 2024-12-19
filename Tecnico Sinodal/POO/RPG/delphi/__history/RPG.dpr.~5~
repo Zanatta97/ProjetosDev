@@ -1,0 +1,20 @@
+program RPG;
+
+uses
+  Vcl.Forms,
+  telainicial in 'telainicial.pas' {fmInicial},
+  datamodule in 'datamodule.pas' {DataModule2: TDataModule},
+  telalogin in 'telalogin.pas' {fmLogin},
+  telaselecaopersonagem in 'telaselecaopersonagem.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfmInicial, fmInicial);
+  Application.CreateForm(TDataModule2, DataModule2);
+  Application.CreateForm(TfmLogin, fmLogin);
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

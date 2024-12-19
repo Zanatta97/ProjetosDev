@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bimestre_a"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_bimestre_a" />
+
+        <item
+            android:id="@+id/nav_bimestre_b"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_bimestre_b" />
+
+        <item
+            android:id="@+id/nav_bimestre_c"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_bimestre_c" />
+
+        <item
+            android:id="@+id/nav_bimestre_d"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_bimestre_d" />
+
+        <item
+            android:id="@+id/nav_resultado"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_resultado" />
+        <!--<item
+            android:id="@+id/nav_azul"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_azul" />-->
+
+    </group>
+
+    <item android:title="Compartilhar">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+        </menu>
+    </item>
+
+</menu>

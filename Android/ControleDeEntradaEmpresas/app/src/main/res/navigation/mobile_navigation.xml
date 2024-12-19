@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    android:label="Lista de Reservas"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.samuel.controledeentradaempresas.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_lista"
+        android:name="com.samuel.controledeentradaempresas.ui.lista.ListaFragment"
+        android:label="@string/menu_lista"
+        tools:layout="@layout/fragment_lista" />
+
+    <fragment
+        android:id="@+id/nav_reserva"
+        android:name="com.samuel.controledeentradaempresas.ui.adicionarAFila.AdicionarFragment"
+        android:label="@string/menu_reserva"
+        tools:layout="@layout/fragment_adicionar" />
+
+    <fragment
+        android:id="@+id/nav_cadastro"
+        android:name="com.samuel.controledeentradaempresas.ui.cadastrarCliente.CadastrarClienteFragment"
+        android:label="@string/menu_cadastro"
+        tools:layout="@layout/fragment_cadastrar" />
+
+    <fragment
+        android:id="@+id/nav_antigas"
+        android:name="com.samuel.controledeentradaempresas.ui.reservasAntigas.ReservasAntigasFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_lista_antigas" />
+
+    <fragment
+        android:id="@+id/nav_parametros"
+        android:name="com.samuel.controledeentradaempresas.ui.send.SendFragment"
+        android:label="@string/menu_parametros"
+        tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/nav_dados"
+        android:name="com.samuel.controledeentradaempresas.ui.dados.DadosFragment"
+        android:label="@string/nav_dados"
+        tools:layout="@layout/fragment_dados" />
+</navigation>

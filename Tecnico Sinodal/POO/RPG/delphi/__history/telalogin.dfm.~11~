@@ -1,0 +1,56 @@
+object fmLogin: TfmLogin
+  Left = 0
+  Top = 0
+  Caption = 'LOGIN'
+  ClientHeight = 376
+  ClientWidth = 508
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  DesignSize = (
+    508
+    376)
+  PixelsPerInch = 96
+  TextHeight = 13
+  object edLogin: TEdit
+    Left = 136
+    Top = 144
+    Width = 257
+    Height = 21
+    Anchors = []
+    TabOrder = 0
+    TextHint = 'LOGIN'
+  end
+  object edSenha: TEdit
+    Left = 136
+    Top = 171
+    Width = 257
+    Height = 21
+    Anchors = []
+    TabOrder = 1
+    TextHint = 'SENHA'
+  end
+  object btEntrar: TButton
+    Left = 136
+    Top = 214
+    Width = 257
+    Height = 59
+    Anchors = []
+    Caption = 'ACESSAR'
+    TabOrder = 2
+  end
+  object btVoltar: TButton
+    Left = 8
+    Top = 336
+    Width = 153
+    Height = 32
+    Anchors = [akRight, akBottom]
+    Caption = 'VOLTAR '#192' TELA INICIAL'
+    TabOrder = 3
+    OnClick = btVoltarClick
+  end
+end

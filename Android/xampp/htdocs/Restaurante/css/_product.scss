@@ -1,0 +1,205 @@
+
+
+.product-page {
+   padding: 60px 0 60px 0;
+   min-height: 100vh;
+   text-align: center;
+
+   .product-section {
+
+      .product-info {
+         text-align: left;
+         position: relative;
+
+         h3 {
+               font-family: 'Raleway', sans-serif;
+               font-weight: 700;  
+               font-size: 22px;
+               margin-bottom: 8px;
+               color: $section_title_color;
+               text-transform: uppercase
+         }
+
+         h4 {
+            color: $color_01;
+            text-transform: uppercase;
+            font-family: 'Raleway', sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+         }
+
+         h5 {
+            font-family: 'lato', 'sans-serif';
+            color: $color_12;
+            font-size: 14px;
+         }
+
+         p {
+            font-family: 'lato', 'sans-serif';
+            color: $color_12;
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 20px;
+         }
+
+         
+      }
+
+      .product-picture {
+      
+         
+         img {
+            width: 100%;
+            height: auto;
+         
+         }
+      }
+   }
+
+   .go-back {
+      text-align: left;
+      padding-top: 40px;
+      a, a:visited {
+         color: $color_01;
+      }
+   }
+
+}
+
+
+
+/* **********************************************************************************************
+***********************************   MEDIA QUERIES   ******************************************* 
+********************************************************************************************** */
+
+
+
+
+// Small Screens ****************************************************************************
+/* max-width 640px *********************************************************************/
+
+@media only screen and (max-width: 40em) {
+
+      .product-section {
+
+            .product-picture {
+                  margin-top: 25px;
+            }
+      }
+
+}   
+
+// End of small Screens
+   
+   
+   
+// Medium Screens ***************************************************************************
+/* min-width 641px and max-width 1023px ************************************************/
+
+@media only screen and (min-width: 40.063em) and (max-width: 63.938em) {
+   
+   .product-page {
+
+      .product-section {
+      
+         .product-info {
+      
+            h3 {
+               font-size: 24px;
+            }
+
+            h4 {
+               font-size: 14px;
+            }
+
+         }
+
+            .product-picture {
+                  margin-top: 25px;
+            }
+      }
+   }
+
+}
+
+// End of Medium Screens
+
+
+
+
+// Large Screens ****************************************************************************
+/* min-width 1024px and max-width 1440px ***********************************************/
+
+@media only screen and (min-width: 64em) and (max-width: 90em) { 
+   
+   .product-page { 
+      
+      .product-section {
+
+         .product-info {
+            padding-right: 20px;
+
+            h3 {
+               font-size: 26px;
+            }
+
+            h4 {
+               font-size: 16px;
+            }
+
+            h5 {
+               font-size: 16px;
+            }
+
+            p {
+               font-size: 18px;
+               line-height: 26px;
+            }
+         }
+      }
+   }
+
+   
+}
+
+// End of Large Screens
+   
+   
+   
+// Extra Large Screens **********************************************************************
+/* min-width 1441px ********************************************************************/
+
+@media only screen and (min-width: 90.063em) {
+   
+   .product-page {
+
+      .product-section {
+
+         .product-info {
+            padding-right: 20px;
+   
+            h3 {
+               font-size: 28px;
+            }
+   
+            h4 {
+               font-size: 18px;
+            }
+   
+            h5 {
+               font-size: 16px;
+            }
+   
+            p {
+               font-size: 18px;
+               line-height: 26px;
+            }
+         }
+      }
+   }
+      
+      
+         
+}
+
+// End of Extra Large Screens

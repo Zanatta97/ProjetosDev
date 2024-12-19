@@ -1,0 +1,136 @@
+
+{ Tarma }
+
+procedure Tarma.setCodigo(const Value: integer);
+begin
+  fCodigo:= Value
+end;
+
+procedure Tarma.setDescricao(const Value: string);
+begin
+  fDescricao:= Value
+end;
+
+procedure Tarma.setNome(const Value: string);
+begin
+  fNome:= Value
+end;
+
+procedure Tarma.setTamanho(const Value: integer);
+begin
+  fTamanho:= Value
+end;
+
+procedure Tarma.setTipo(const Value: string);
+begin
+   fTipo:= Value
+end;
+
+{ Tarmadura }
+
+procedure Tarmadura.setCodigo(const Value: integer);
+begin
+  fNome:= Value
+end;
+
+procedure Tarmadura.setDescricao(const Value: string);
+begin
+  fDescricao:= Value
+end;
+
+procedure Tarmadura.setNome(const Value: string);
+begin
+  fNome:= Value
+end;
+
+procedure Tarmadura.setTamanho(const Value: integer);
+begin
+  fTamanho:= Value
+end;
+
+procedure Tarmadura.setTipo(const Value: string);
+begin
+  fTipo:= Value
+end;
+
+{ Tpersonagem }
+
+procedure Tpersonagem.setArma(const Value: integer);
+begin
+  fArma:= Value
+end;
+
+procedure Tpersonagem.setArmadura(const Value: integer);
+begin
+  fArmadura:= Value
+end;
+
+procedure Tpersonagem.setCarisma(const Value: integer);
+begin
+  fCarisma:= Value
+end;
+
+procedure Tpersonagem.setClasse(const Value: string);
+begin
+  fClasse:= Value
+end;
+
+procedure Tpersonagem.setCodigo(const Value: integer);
+begin
+  fCodigo:= Value
+end;
+
+procedure Tpersonagem.setConstituicao(const Value: integer);
+begin
+  fConstituicao:= Value
+end;
+
+procedure Tpersonagem.setDestreza(const Value: integer);
+begin
+  fDestreza:= Value
+end;
+
+procedure Tpersonagem.setForca(const Value: integer);
+begin
+  fForca:= Value
+end;
+
+procedure Tpersonagem.setInteligencia(const Value: integer);
+begin
+  fInteligencia:= Value
+end;
+
+procedure Tpersonagem.setInventario(const Value: integer);
+begin
+   fInventario:= Value
+end;
+
+procedure Tpersonagem.setNivel(const Value: integer);
+begin
+   fNivel:= Value
+end;
+
+procedure Tpersonagem.setNome(const Value: string);
+begin
+   fNome:= Value
+end;
+
+procedure Tpersonagem.setPVAtual(const Value: integer);
+begin
+   fPVAtual:= Value
+end;
+
+procedure Tpersonagem.setPVMax(const Value: integer);
+begin
+   fPVMax:= Value
+end;
+
+procedure Tpersonagem.setRaca(const Value: string);
+begin
+   fRaca:= Value
+end;
+
+procedure Tpersonagem.setSabedoria(const Value: integer);
+begin
+  fSabedoria:= Value
+end;

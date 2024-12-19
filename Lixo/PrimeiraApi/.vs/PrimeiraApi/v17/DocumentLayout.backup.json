@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projetos Dev\\PrimeiraApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A60D9D5-3D63-474F-8840-CA4760340ABF}|PrimeiraApi.csproj|d:\\projetos dev\\primeiraapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A60D9D5-3D63-474F-8840-CA4760340ABF}|PrimeiraApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A60D9D5-3D63-474F-8840-CA4760340ABF}|PrimeiraApi.csproj|d:\\projetos dev\\primeiraapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8A60D9D5-3D63-474F-8840-CA4760340ABF}|PrimeiraApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A60D9D5-3D63-474F-8840-CA4760340ABF}|PrimeiraApi.csproj|d:\\projetos dev\\primeiraapi\\primeiraapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{8A60D9D5-3D63-474F-8840-CA4760340ABF}|PrimeiraApi.csproj|solutionrelative:primeiraapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A60D9D5-3D63-474F-8840-CA4760340ABF}|PrimeiraApi.csproj|d:\\projetos dev\\primeiraapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8A60D9D5-3D63-474F-8840-CA4760340ABF}|PrimeiraApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A60D9D5-3D63-474F-8840-CA4760340ABF}|PrimeiraApi.csproj|d:\\projetos dev\\primeiraapi\\rotas\\classeteste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A60D9D5-3D63-474F-8840-CA4760340ABF}|PrimeiraApi.csproj|solutionrelative:rotas\\classeteste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A60D9D5-3D63-474F-8840-CA4760340ABF}|PrimeiraApi.csproj|d:\\projetos dev\\primeiraapi\\rotas\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A60D9D5-3D63-474F-8840-CA4760340ABF}|PrimeiraApi.csproj|solutionrelative:rotas\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projetos Dev\\PrimeiraApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Projetos Dev\\PrimeiraApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-22T01:43:41.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Projetos Dev\\PrimeiraApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\Projetos Dev\\PrimeiraApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-22T01:05:10.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PrimeiraApi.http",
+              "DocumentMoniker": "D:\\Projetos Dev\\PrimeiraApi\\PrimeiraApi.http",
+              "RelativeDocumentMoniker": "PrimeiraApi.http",
+              "ToolTip": "D:\\Projetos Dev\\PrimeiraApi\\PrimeiraApi.http",
+              "RelativeToolTip": "PrimeiraApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-11-22T01:04:55.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Pessoa.cs",
+              "DocumentMoniker": "D:\\Projetos Dev\\PrimeiraApi\\Rotas\\Pessoa.cs",
+              "RelativeDocumentMoniker": "Rotas\\Pessoa.cs",
+              "ToolTip": "D:\\Projetos Dev\\PrimeiraApi\\Rotas\\Pessoa.cs",
+              "RelativeToolTip": "Rotas\\Pessoa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T00:22:55.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClasseTeste.cs",
+              "DocumentMoniker": "D:\\Projetos Dev\\PrimeiraApi\\Rotas\\ClasseTeste.cs",
+              "RelativeDocumentMoniker": "Rotas\\ClasseTeste.cs",
+              "ToolTip": "D:\\Projetos Dev\\PrimeiraApi\\Rotas\\ClasseTeste.cs",
+              "RelativeToolTip": "Rotas\\ClasseTeste.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T00:15:47.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projetos Dev\\PrimeiraApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Projetos Dev\\PrimeiraApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T00:00:59.506Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

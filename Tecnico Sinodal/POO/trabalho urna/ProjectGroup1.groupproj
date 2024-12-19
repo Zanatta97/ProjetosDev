@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{4855EC3A-BB58-48D6-98EB-D8678871A69A}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="trabalhoUrna.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="trabalhoUrna">
+        <MSBuild Projects="trabalhoUrna.dproj"/>
+    </Target>
+    <Target Name="trabalhoUrna:Clean">
+        <MSBuild Projects="trabalhoUrna.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="trabalhoUrna:Make">
+        <MSBuild Projects="trabalhoUrna.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="trabalhoUrna"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="trabalhoUrna:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="trabalhoUrna:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

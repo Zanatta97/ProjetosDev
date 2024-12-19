@@ -1,0 +1,64 @@
+-Rolagem Dados:
+	*Ataque = D20 + modificadorAtributo + proficientciaAtaque
+	*TestesGenericos = D20 + modificadorAtributo
+	*VantagemDesvantage = 2D20 (maior valor na vantagem, menor na desvantagem)
+	*DefiniçãoSorte = D20 antes de combate
+
+-Atributos:
+	*Força = bonus de ataque com armas
+	*Destreza = bonus de defesa
+	*Constituição = bonus de defesa
+	*Inteligencia = bonus de ataque com magias
+	*Sabedoria = bonus testes genericos
+	*Percepção = bonus testes genericos
+	*Carisma = bonus testes genericos
+
+-Armas/Catalizadores de Magia:
+	*Bonus de Ataque + proficiencia da classe
+	*Espaço no Inventario
+
+-Armaduras/Roupas:
+	*Bonus de Defesa + proficiencia de classe
+
+-Personagem Principal:
+	*Nome
+	*Classe
+	*Raça
+	*Nivel	
+	*Pontos de Vida = Base classe + base raça + modificador nivel
+	*Força = bonus de classe + bonus de raça + modificador nivel
+	*Destreza = bonus de classe + bonus de raça + modificador nivel
+	*Constituição = bonus de classe + bonus de raça + modificador nivel
+	*Inteligencia = bonus de classe + bonus de raça + modificador nivel
+	*Sabedoria = bonus de classe + bonus de raça + modificador nivel
+	*Percepção = bonus de classe + bonus de raça + modificador nivel
+	*Carisma = bonus de classe + bonus de raça + modificador nivel
+	*Inventário = Capacidade Max(Lista de Itens)
+	*Status = variável
+	*Lista de Ataques = Quantidade X escolhidos pelo usuário
+	*Arma = Escolhida pelo usuário do Inventário
+	*Armadura = Escolhida pelo usuário(apenas 1 por vez)
+
+-Inimigos:
+	*Classe
+	*Raça
+	*Dificuldade = Modificador de Dificuldade(Sorte)
+	*Pontos de Vida = Base classe + base raça + modificador nivel
+	*Força = bonus de classe + bonus de raça + modificador nivel
+	*Destreza = bonus de classe + bonus de raça + modificador nivel
+	*Constituição = bonus de classe + bonus de raça + modificador nivel
+	*Inteligencia = bonus de classe + bonus de raça + modificador nivel
+	*Sabedoria = bonus de classe + bonus de raça + modificador nivel
+	*Percepção = bonus de classe + bonus de raça + modificador nivel
+	*Carisma = bonus de classe + bonus de raça + modificador nivel
+	*Status = variável
+	*Lista de Ataques = Pré-definidos pela Classe
+	*Arma = Baseado na Dificuldade
+	*Armadura = Baseado na Dificuldade
+
+-Itens:
+	*Tipo
+	*Raridade
+	*Tamanho (espaço ocupado no inventario)
+	*Utilidade
+	*Lore

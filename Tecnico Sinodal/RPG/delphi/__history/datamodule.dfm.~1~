@@ -1,0 +1,17 @@
+object DataModule2: TDataModule2
+  OldCreateOrder = False
+  Height = 504
+  Width = 639
+  object FDQuery1: TFDQuery
+    Left = 392
+    Top = 336
+  end
+  object FDConnection1: TFDConnection
+    Left = 400
+    Top = 184
+  end
+  object FDPhysPgDriverLink1: TFDPhysPgDriverLink
+    Left = 512
+    Top = 376
+  end
+end

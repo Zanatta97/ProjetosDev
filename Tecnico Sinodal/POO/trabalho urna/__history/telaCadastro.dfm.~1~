@@ -1,0 +1,113 @@
+object formCadastro: TformCadastro
+  Left = 0
+  Top = 0
+  Caption = 'Cadastro'
+  ClientHeight = 274
+  ClientWidth = 543
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 32
+    Top = 29
+    Width = 94
+    Height = 13
+    Caption = 'Nome do Candidato'
+  end
+  object lbCodigo: TLabel
+    Left = 417
+    Top = 141
+    Width = 104
+    Height = 13
+    Caption = 'N'#250'mero do Candidato'
+  end
+  object lbPartido: TLabel
+    Left = 32
+    Top = 85
+    Width = 37
+    Height = 13
+    Caption = 'Partido '
+  end
+  object lbCargo: TLabel
+    Left = 32
+    Top = 141
+    Width = 32
+    Height = 13
+    Caption = 'Cargo '
+  end
+  object LbSigla: TLabel
+    Left = 440
+    Top = 85
+    Width = 22
+    Height = 13
+    Caption = 'Sigla'
+  end
+  object lbNome: TEdit
+    Left = 32
+    Top = 48
+    Width = 489
+    Height = 21
+    TabOrder = 0
+  end
+  object EdNumero: TEdit
+    Left = 417
+    Top = 160
+    Width = 104
+    Height = 21
+    TabOrder = 4
+  end
+  object EdPartido: TEdit
+    Left = 32
+    Top = 104
+    Width = 296
+    Height = 21
+    TabOrder = 1
+  end
+  object lbComboBox: TComboBox
+    Left = 32
+    Top = 160
+    Width = 145
+    Height = 21
+    TabOrder = 3
+    Text = 'Cargo'
+    Items.Strings = (
+      'Senador'
+      'Deputado Federal'
+      'Deputado Estadual'
+      'Governador'
+      'Presidente')
+  end
+  object BtFinalizar: TButton
+    Left = 329
+    Top = 216
+    Width = 192
+    Height = 40
+    Caption = 'Finalizar Cadastro'
+    TabOrder = 5
+    OnClick = BtFinalizarClick
+  end
+  object BtListar: TButton
+    Left = 32
+    Top = 231
+    Width = 75
+    Height = 25
+    Caption = 'Listar'
+    TabOrder = 6
+    OnClick = BtListarClick
+  end
+  object EdSigla: TEdit
+    Left = 440
+    Top = 104
+    Width = 81
+    Height = 21
+    TabOrder = 2
+  end
+end

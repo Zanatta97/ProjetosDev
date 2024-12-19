@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtAlertDialogSenha"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text=""
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:text="Senha Atual"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp">
+
+        <EditText
+            android:id="@+id/editSenhaAtual"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="30dp"
+            android:gravity="start"
+            android:textAlignment="viewStart"
+            android:inputType="textPassword" />
+
+        <ImageView
+            android:id="@+id/imgVerSenhaAtual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@android:drawable/ic_menu_view"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Nova Senha"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp">
+
+        <EditText
+            android:id="@+id/editSenhaNova"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="30dp"
+
+            android:gravity="start"
+            android:textAlignment="viewStart"
+            android:inputType="textPassword" />
+
+        <ImageView
+            android:id="@+id/imgVerSenhaNova"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@android:drawable/ic_menu_view"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Confirmar a nova senha"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp">
+
+        <EditText
+            android:id="@+id/editSenhaConfirma"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="30dp"
+            android:gravity="start"
+            android:textAlignment="viewStart" />
+
+        <ImageView
+            android:id="@+id/imgVerSenhaConfirma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@android:drawable/ic_menu_view"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:inputType="textPassword" />
+
+    </RelativeLayout>
+
+</LinearLayout>

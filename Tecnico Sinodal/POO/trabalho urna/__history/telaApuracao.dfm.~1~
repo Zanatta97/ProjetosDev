@@ -1,0 +1,32 @@
+object formApuracao: TformApuracao
+  Left = 0
+  Top = 0
+  Caption = 'formApuracao'
+  ClientHeight = 495
+  ClientWidth = 331
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object btApurar: TButton
+    Left = 8
+    Top = 440
+    Width = 315
+    Height = 47
+    Caption = 'APURAR'
+    TabOrder = 0
+  end
+  object ListBox1: TListBox
+    Left = 8
+    Top = 8
+    Width = 315
+    Height = 426
+    ItemHeight = 13
+    TabOrder = 1
+  end
+end

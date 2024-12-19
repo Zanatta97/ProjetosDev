@@ -1,0 +1,92 @@
+[
+  {
+    "ContainingType": "PrimeiraApi.Rotas.ClasseTeste\u002B\u003C\u003Ec",
+    "Method": "\u003CMapClasseTeste\u003Eb__1_0",
+    "RelativePath": "pessoa",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PrimeiraApi.Rotas.Pessoa, PrimeiraApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PrimeiraApi.Rotas.ClasseTeste\u002B\u003C\u003Ec",
+    "Method": "\u003CMapClasseTeste\u003Eb__1_3",
+    "RelativePath": "pessoa",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pessoa",
+        "Type": "PrimeiraApi.Rotas.Pessoa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PrimeiraApi.Rotas.Pessoa",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PrimeiraApi.Rotas.ClasseTeste\u002B\u003C\u003Ec",
+    "Method": "\u003CMapClasseTeste\u003Eb__1_1",
+    "RelativePath": "pessoa/{nome}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PrimeiraApi.Rotas.Pessoa",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PrimeiraApi.Rotas.ClasseTeste\u002B\u003C\u003Ec",
+    "Method": "\u003CMapClasseTeste\u003Eb__1_2",
+    "RelativePath": "pessoa2{nome}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PrimeiraApi.Rotas.Pessoa",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

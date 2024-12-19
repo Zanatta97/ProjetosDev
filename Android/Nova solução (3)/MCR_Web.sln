@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MCRWeb", "Projeto\", "{ddaff855-0d5d-4d8e-bba7-60fcd592c88a}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Projeto"
+		Debug.AspNetCompiler.PhysicalPath = "Projeto\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Projeto\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Projeto"
+		Release.AspNetCompiler.PhysicalPath = "Projeto\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Projeto\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51391"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ddaff855-0d5d-4d8e-bba7-60fcd592c88a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ddaff855-0d5d-4d8e-bba7-60fcd592c88a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ddaff855-0d5d-4d8e-bba7-60fcd592c88a}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

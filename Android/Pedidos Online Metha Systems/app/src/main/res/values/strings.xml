@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Pedidos Android Metha Systems</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Pedidos Android Metha Systems</string>
+    <string name="nav_header_subtitle">www.methasystems.com.br</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configurações</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Galeria</string>
+    <string name="menu_clientes">Clientes</string>
+    <string name="num_remessa">Número da Remessa</string>
+    <string name="informa_remessa">Favor informar o Número da Remessa a ser recebida</string>
+    <string name="salvar">SALVAR</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="cpf">"CPF: "</string>
+    <string name="cnpj">"CNPJ: "</string>
+    <string name="codigo">"Codigo: "</string>
+    <string name="estoque_produto">"Estoque: "</string>
+    <string name="valor_produto">"Valor: "</string>
+    <string name="referencia">"Ref.: "</string>
+    <string name="menu_produtos">Produtos</string>
+    <string name="menu_venda">Nova Venda</string>
+    <string name="cliente">Cliente</string>
+    <string name="mod_pagamento">Modalidade de Pagamento</string>
+    <string name="menu_lista_vendas">Vendas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

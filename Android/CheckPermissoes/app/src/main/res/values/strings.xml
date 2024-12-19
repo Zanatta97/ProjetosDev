@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CheckPermissoes</string>
+    <string name="titulo">Testar Permissões</string>
+    <string name="cbCamera">Acesso à câmera</string>
+</resources>

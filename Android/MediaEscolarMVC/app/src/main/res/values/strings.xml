@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Media Escolar MVC</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Média Escolar</string>
+    <string name="nav_header_subtitle">Samuel Zanatta Silva</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_sair">Sair</string>
+
+    <string name="menu_resultado">Resultado Final</string>
+    <string name="menu_bimestre_a">1º Bimestre</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Compartilhar</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_azul">Azul</string>
+    <string name="titulo">TESTE</string>
+
+    <string name="modelo_fragment">Fragmento Modelo</string>
+    <string name="menu_bimestre_b">2º Bimestre</string>
+    <string name="menu_bimestre_c">3º Bimestre</string>
+    <string name="menu_bimestre_d">4º Bimestre</string>
+    <string name="txtLogo">Logo Aplicativo Média Escolar</string>
+    <string name="txtResultado">Aprovado</string>
+    <string name="txtBimestre">1º Bimestre</string>
+    <string name="txtMateria">Matemática</string>
+    <string name="txtMedia">10.00</string>
+    <string name="txtEditar">Editar</string>
+    <string name="txtDeletar">Deletar</string>
+</resources>

@@ -1,0 +1,4 @@
+#Fri Jun 05 09:24:05 BRT 2020
+base.0=E\:\\Android\\ControleEntradaCliente\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,1643 @@
+input[type="button"] {
+	-webkit-appearance: none; 
+	@include border-radius(0);
+}
+
+.c_Form1
+{
+	opacity: 1;
+}
+
+#Form1_body
+{
+	width: 807px;
+	height: 694px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainDiv
+{
+	background-color: #FFFFFF;
+	width: 807px;
+	height: 694px;
+	background-position: center;
+	background-repeat: no-repeat;
+	left: 0px;
+	margin: 0 0 0 0;
+	min-height: 633px;
+	overflow: inherit;
+	position: relative;
+	top: 0px;
+}
+
+.c_Div1
+{
+	background-color: #F2F2F2;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -362px;
+	margin-top: -316px;
+	width: 724px;
+	height: 633px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-color: #333333;
+	border-style: Solid;
+	border-width: 1px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+.c_Div5
+{
+	background-color: #C5C5C5;
+	position: absolute;
+	left: -1px;
+	top: -1px;
+	width: 724px;
+	height: 33px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-color: #333333;
+	border-style: Solid;
+	border-width: 1px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+.c_Label24
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 16px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 6px;
+	top: 4px;
+	width: 270px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_ControlsAjaxPanel
+{
+	position: absolute !important;
+	left: 13px;
+	top: 43px;
+	width: 699px;
+	height: 579px;
+	background-color: Transparent;
+	border-color: #000000;
+	border-style: None;
+	border-width: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.RadInput_Default.riSingle .c_txtViews
+{
+	width: 184px;
+	height: 21px;
+	cursor: text;
+	opacity: 1;
+	text-align: Left;
+}
+
+.c_txtViews_wrapper
+{
+	position: absolute !important;
+	left: 21px;
+	top: 29px;
+	height: 21px !important;
+	width: 184px !important;
+}
+
+.c_Label1
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 21px;
+	top: 11px;
+	width: 154px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_cboDbs
+{
+	position: absolute !important;
+	left: 232px;
+	top: 29px;
+	width: 212px;
+	width: 212px !important;
+	height: 22px;
+	height: 22px !important;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_Label2
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 233px;
+	top: 11px;
+	width: 140px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_Label23
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 21px;
+	top: 411px;
+	width: 140px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #545454;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.RadInput_Default.riSingle .c_txtQuery
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 658px;
+	height: 103px;
+	cursor: text;
+	opacity: 1;
+	text-align: Left;
+}
+
+.c_txtQuery_wrapper
+{
+	position: absolute !important;
+	left: 21px;
+	top: 428px;
+	height: 103px !important;
+	width: 658px !important;
+}
+
+.c_ControlsPanel
+{
+	position: absolute !important;
+	left: 22px;
+	top: 57px;
+	width: 658px;
+	height: 352px;
+	background-color: Transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #000000;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_TabControl1
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_TabItem1
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_TabPage1
+{
+	bottom: 1px;
+	cursor: inherit;
+	height: initial !important;
+	left: 1px;
+	opacity: 1;
+	position: absolute;
+	right: 1px;
+	top: 27px;
+}
+
+.c_lstTables
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 15px;
+	top: 37px;
+	width: 159px;
+	height: 206px;
+	background-color: #D9D9D9;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_Label3
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 15px;
+	top: 13px;
+	width: 159px;
+	height: 22px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_lstFields
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 222px;
+	top: 37px;
+	width: 159px;
+	height: 206px;
+	background-color: #D9D9D9;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_Label4
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 222px;
+	top: 13px;
+	width: 159px;
+	height: 22px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_cboColumnFunc
+{
+	position: absolute !important;
+	left: 15px;
+	top: 278px;
+	width: 159px;
+	width: 159px !important;
+	height: 22px;
+	height: 22px !important;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_Label5
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 15px;
+	top: 254px;
+	width: 170px;
+	height: 22px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_cboColumnContent
+{
+	position: absolute !important;
+	left: 222px;
+	top: 278px;
+	width: 159px;
+	width: 159px !important;
+	height: 22px;
+	height: 22px !important;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_Label6
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 222px;
+	top: 254px;
+	width: 159px;
+	height: 22px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.RadInput_Default.riSingle .c_txtColumnTitle
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 159px;
+	height: 25px;
+	cursor: text;
+	opacity: 1;
+	text-align: Left;
+}
+
+.c_txtColumnTitle_wrapper
+{
+	position: absolute !important;
+	left: 435px;
+	top: 276px;
+	height: 25px !important;
+	width: 159px !important;
+}
+
+.c_Label7
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 435px;
+	top: 254px;
+	width: 159px;
+	height: 22px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_butNewCol
+{
+	background-color: #D9D9D9;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 607px;
+	top: 276px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 1px;
+	color: #000000;
+	cursor: pointer;
+	height: 25px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 28px;
+}
+
+.c_lstSelectedField
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 435px;
+	top: 37px;
+	width: 159px;
+	height: 206px;
+	background-color: #D9D9D9;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_Label22
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 435px;
+	top: 13px;
+	width: 198px;
+	height: 22px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_butUpField
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 603px;
+	top: 37px;
+	background-image: url('../Images/ViewConstructorModule/Cima.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.c_butDownField
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 603px;
+	top: 61px;
+	background-image: url('../Images/ViewConstructorModule/Baixo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.c_butDelJoin
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 187px;
+	top: 225px;
+	background-image: url('../Images/ViewConstructorModule/Menos.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.c_butAddField
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 398px;
+	top: 37px;
+	background-image: url('../Images/ViewConstructorModule/Direita.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.c_butDelField
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 398px;
+	top: 61px;
+	background-image: url('../Images/ViewConstructorModule/Esquerda.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.c_TabItem2
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_TabPage2
+{
+	bottom: 1px;
+	cursor: inherit;
+	height: initial !important;
+	left: 1px;
+	opacity: 1;
+	position: absolute;
+	right: 1px;
+	top: 27px;
+}
+
+.c_lstGroup
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 9px;
+	top: 35px;
+	width: 173px;
+	height: 116px;
+	background-color: #D9D9D9;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_Label8
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 9px;
+	top: 10px;
+	width: 173px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_Label9
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 9px;
+	top: 160px;
+	width: 173px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_lstOrder
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 9px;
+	top: 186px;
+	width: 173px;
+	height: 116px;
+	background-color: #D9D9D9;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_lstSelectedGroupBy
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 234px;
+	top: 35px;
+	width: 173px;
+	height: 116px;
+	background-color: #D9D9D9;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_Label10
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 234px;
+	top: 10px;
+	width: 173px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_Label11
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 234px;
+	top: 160px;
+	width: 173px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_lstSelectedOrderBy
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 234px;
+	top: 186px;
+	width: 173px;
+	height: 116px;
+	background-color: #D9D9D9;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_rdbAsc
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 457px;
+	top: 186px;
+	width: 148px;
+	height: 25px;
+	background-color: Transparent;
+	border-color: #000000;
+	color: #000000;
+	cursor: inherit;
+	direction: ltr;
+	opacity: 1;
+	text-align: Left;
+}
+
+.c_butUpOrderBy
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 417px;
+	top: 186px;
+	background-image: url('../Images/ViewConstructorModule/Cima.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.c_butDownGroupBy
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 417px;
+	top: 57px;
+	background-image: url('../Images/ViewConstructorModule/Baixo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.c_butUpGroupBy
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 417px;
+	top: 35px;
+	background-image: url('../Images/ViewConstructorModule/Cima.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.c_butDownOrderBy
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 417px;
+	top: 207px;
+	background-image: url('../Images/ViewConstructorModule/Baixo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.c_rdbDesc
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 457px;
+	top: 207px;
+	width: 148px;
+	height: 25px;
+	background-color: Transparent;
+	border-color: #000000;
+	color: #000000;
+	cursor: inherit;
+	direction: ltr;
+	opacity: 1;
+	text-align: Left;
+}
+
+.c_butDelGroupBy
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 196px;
+	top: 57px;
+	background-image: url('../Images/ViewConstructorModule/Esquerda.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.c_butDelOrderBy
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 196px;
+	top: 207px;
+	background-image: url('../Images/ViewConstructorModule/Esquerda.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.c_butAddGroup
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 196px;
+	top: 35px;
+	background-image: url('../Images/ViewConstructorModule/Direita.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.c_butAddOrder
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 196px;
+	top: 186px;
+	background-image: url('../Images/ViewConstructorModule/Direita.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.c_TabItem3
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_TabPage3
+{
+	bottom: 1px;
+	cursor: inherit;
+	height: initial !important;
+	left: 1px;
+	opacity: 1;
+	position: absolute;
+	right: 1px;
+	top: 27px;
+}
+
+.RadInput_Default.riSingle .c_txtTopRegisters
+{
+	width: 139px;
+	height: 22px;
+	cursor: text;
+	opacity: 1;
+	text-align: Left;
+}
+
+.c_txtTopRegisters_wrapper
+{
+	position: absolute !important;
+	left: 170px;
+	top: 11px;
+	height: 22px !important;
+	width: 139px !important;
+}
+
+.c_Label12
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 14px;
+	top: 16px;
+	width: 155px;
+	height: 15px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_cboJoinType
+{
+	position: absolute !important;
+	left: 25px;
+	top: 90px;
+	width: 137px;
+	width: 137px !important;
+	height: 22px;
+	height: 22px !important;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_Label14
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 25px;
+	top: 131px;
+	width: 157px;
+	height: 24px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_cboJoinTable
+{
+	position: absolute !important;
+	left: 25px;
+	top: 148px;
+	width: 137px;
+	width: 137px !important;
+	height: 22px;
+	height: 22px !important;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_cboJoinField
+{
+	position: absolute !important;
+	left: 201px;
+	top: 90px;
+	width: 143px;
+	width: 143px !important;
+	height: 22px;
+	height: 22px !important;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_cboJoinOperator
+{
+	position: absolute !important;
+	left: 201px;
+	top: 148px;
+	width: 143px;
+	width: 143px !important;
+	height: 22px;
+	height: 22px !important;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_cboJoinBaseField
+{
+	position: absolute !important;
+	left: 382px;
+	top: 90px;
+	width: 160px;
+	width: 160px !important;
+	height: 22px;
+	height: 22px !important;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_Label15
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 201px;
+	top: 72px;
+	width: 163px;
+	height: 24px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_Label16
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 201px;
+	top: 131px;
+	width: 163px;
+	height: 24px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_Label17
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 382px;
+	top: 72px;
+	width: 160px;
+	height: 24px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_Label13
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 25px;
+	top: 72px;
+	width: 157px;
+	height: 24px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_butAddJoin
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 551px;
+	top: 154px;
+	background-image: url('../Images/ViewConstructorModule/Mais.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.c_Label18
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 382px;
+	top: 131px;
+	width: 160px;
+	height: 24px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.RadInput_Default.riSingle .c_txtJoinAlias
+{
+	width: 160px;
+	height: 22px;
+	cursor: text;
+	opacity: 1;
+	text-align: Left;
+}
+
+.c_txtJoinAlias_wrapper
+{
+	position: absolute !important;
+	left: 382px;
+	top: 148px;
+	height: 22px !important;
+	width: 160px !important;
+}
+
+.c_Label26
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 18px;
+	top: 48px;
+	width: 143px;
+	height: 24px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_cboField
+{
+	position: absolute !important;
+	left: 29px;
+	top: 237px;
+	width: 137px;
+	width: 137px !important;
+	height: 22px;
+	height: 22px !important;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_cboOperator
+{
+	position: absolute !important;
+	left: 205px;
+	top: 237px;
+	width: 143px;
+	width: 143px !important;
+	height: 22px;
+	height: 22px !important;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_Label20
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 205px;
+	top: 220px;
+	width: 143px;
+	height: 24px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_cboValue
+{
+	position: absolute !important;
+	left: 386px;
+	top: 237px;
+	width: 140px;
+	width: 140px !important;
+	height: 22px;
+	height: 22px !important;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_Label21
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 386px;
+	top: 220px;
+	width: 143px;
+	height: 24px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_rdbAnd
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 30px;
+	top: 269px;
+	width: 45px;
+	height: 25px;
+	background-color: Transparent;
+	border-color: #000000;
+	color: #000000;
+	cursor: inherit;
+	direction: ltr;
+	opacity: 1;
+	text-align: Left;
+}
+
+.c_rdbOr
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 116px;
+	top: 269px;
+	width: 49px;
+	height: 25px;
+	background-color: Transparent;
+	border-color: #000000;
+	color: #000000;
+	cursor: inherit;
+	direction: ltr;
+	opacity: 1;
+	text-align: Left;
+}
+
+.c_butAddFilter
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 555px;
+	top: 219px;
+	background-image: url('../Images/ViewConstructorModule/Mais.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.c_butClearFilter
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 555px;
+	top: 243px;
+	background-image: url('../Images/ViewConstructorModule/Menos.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.c_Label19
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 29px;
+	top: 220px;
+	width: 143px;
+	height: 24px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_Label25
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 22px;
+	top: 195px;
+	width: 143px;
+	height: 24px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_Line1
+{
+	position: absolute !important;
+	left: 19px;
+	top: 185px;
+	width: 598px;
+	height: 1px;
+	background-color: #B8B8B8;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.c_butSave
+{
+	background-color: #D9D9D9;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 577px;
+	top: 542px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 1px;
+	color: #000000;
+	cursor: pointer;
+	height: 25px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 100px;
+}
+
+.c_butTest
+{
+	background-color: #D9D9D9;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 472px;
+	top: 542px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 1px;
+	color: #000000;
+	cursor: pointer;
+	height: 25px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 100px;
+}
+
+.c_ResultLabel
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 25px;
+	top: 536px;
+	width: 434px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+

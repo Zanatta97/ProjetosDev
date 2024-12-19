@@ -1,0 +1,219 @@
+unit UnitClasses;
+
+interface
+
+uses Dialogs;
+
+type
+  TCargo = class
+    private
+      fTotalVotos: integer;
+      procedure setTotalVotos (const Value: integer);
+    public
+
+    published
+       property TotalVotos: integer read fTotalVotos write setTotalVotos;
+  end;
+
+  TPartido = class
+    private
+      fNome: string;
+      fCodigo: integer;
+      fSigla: string;
+      procedure setNome (const Value: string);
+      procedure setCodigo (const Value: integer);
+      procedure setSigla (const Value: string);
+    public
+
+    published
+      property Nome: string read fNome write setNome;
+      property Codigo: integer read fCodigo write setCodigo;
+      property Sigla: string read fSigla write setSigla;
+
+  end;
+
+  TCandidato = class
+    private
+      fNome: string;
+      fCodigo: integer;
+      fPartido: TPartido;
+      fCargo: TCargo;
+      procedure setNome (const Value: string);
+      procedure setCodigo (const Value: integer);
+      procedure setPartido (const Value: TPartido);
+      procedure setCargo (const Value: TCargo);
+    public
+
+    published
+      property Nome: string read fNome write setNome;
+      property Codigo: integer read fCodigo write setCodigo;
+      property Partido: TPartido read fPartido write setPartido;
+      property Cargo: TCargo read fCargo write setCargo;
+
+  end;
+
+  TVoto = class
+    private
+        {fDeputadoEstadual
+        fDeputadoFederal
+        fSenador
+        fGovernador
+        fPresidente}
+    public
+
+    published
+  end;
+
+  TDeputadoEstadual = class(TCargo)
+    private
+      fCodigo: array [0..4] of integer;
+      procedure setCodigo (const Value: integer);
+    public
+
+    published
+      property Codigo: integer read fCodigo write setCodigo;
+  end;
+
+  TDeputadoFederal = class(TCargo)
+    private
+      fCodigo: array [0..3] of integer;
+      procedure setCodigo (const Value: integer);
+    public
+
+    published
+      property Codigo: integer read fCodigo write setCodigo;
+  end;
+
+  TSenador = class(TCargo)
+    private
+      fCodigo: array [0..2] of integer;
+      procedure setCodigo (const Value: integer);
+    public
+
+    published
+      property Codigo: integer read fCodigo write setCodigo;
+  end;
+
+  TGovernador = class(TCargo)
+    private
+      fCodigo: array [0..1] of integer;
+      procedure setCodigo (const Value: integer);
+    public
+
+    published
+      property Codigo: integer read fCodigo write setCodigo;
+  end;
+
+  TPresidente = class(TCargo)
+    private
+      fCodigo: array [0..1] of integer;
+      procedure setCodigo (const Value: integer);
+    public
+
+    published
+      property Codigo: integer read fCodigo write setCodigo;
+  end;
+
+  TApurador = class
+    private
+
+    public
+
+    published
+
+  end;
+
+  TCadastrados = class
+    private
+
+    public
+       fCandidatosPresidente: Array of TCandidato;
+       procedure incluirCandidatoPresidente (pNome: string);
+    published
+
+  end;
+
+implementation
+
+{ TCandidato }
+
+procedure TCandidato.setNome(const Value: string);
+begin
+
+end;
+
+procedure TCandidato.setCodigo(const Value: Integer);
+begin
+
+end;
+
+procedure TCandidato.setPartido(const Value: TPartido);
+begin
+
+end;
+
+procedure TCandidato.setCargo(const Value: TCargo);
+begin
+
+end;
+
+{ TPartido }
+
+procedure TPartido.setNome(const Value: string);
+begin
+
+end;
+
+procedure TPartido.setCodigo(const Value: Integer);
+begin
+
+end;
+
+procedure TPartido.setSigla(const Value: string);
+begin
+
+end;
+
+{ TCargo }
+
+procedure TCargo.setTotalVotos(const Value: Integer);
+begin
+
+end;
+
+{ TGovernador }
+
+procedure TGovernador.setCodigo(const Value: integer);
+begin
+
+end;
+
+{ TPresidente }
+
+procedure TPresidente.setCodigo(const Value: integer);
+begin
+
+end;
+
+{ TDeputadoEstadual }
+
+procedure TDeputadoEstadual.setCodigo(const Value: integer);
+begin
+
+end;
+
+{ TDeputadoFederal }
+
+procedure TDeputadoFederal.setCodigo(const Value: integer);
+begin
+
+end;
+
+{ TSenador }
+
+procedure TSenador.setCodigo(const Value: integer);
+begin
+
+end;
+
+end.

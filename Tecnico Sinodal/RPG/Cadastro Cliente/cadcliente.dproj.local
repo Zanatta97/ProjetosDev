@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/05/06 19:19:45.328,=C:\Users\ti12\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/05/06 19:20:13.453,=C:\Users\ti12\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2019/05/06 19:21:40.551,Z:\Samuel Zanatta\Programação 3\Cadastro Cliente\datamodule.dfm=C:\Users\ti12\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2019/05/06 19:21:40.551,Z:\Samuel Zanatta\Programação 3\Cadastro Cliente\datamodule.pas=C:\Users\ti12\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2019/05/06 19:21:48.840,Z:\Samuel Zanatta\Programação 3\Cadastro Cliente\telaprincipal.pas=C:\Users\ti12\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/05/06 19:21:48.840,Z:\Samuel Zanatta\Programação 3\Cadastro Cliente\telaprincipal.dfm=C:\Users\ti12\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/05/06 19:21:55.159,Z:\Samuel Zanatta\Programação 3\Cadastro Cliente\cadcliente.dproj=C:\Users\ti12\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

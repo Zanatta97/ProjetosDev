@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300');
+
+
+
+body {
+	padding: 10px 15% 30px 8%;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #2b2b2b;
+	color: white;
+}
+
+
+h3 {
+	color: #f27609;
+	margin-top: 50px;
+}
+
+h4 {
+	color: grey;
+	display: inline-block;
+}
+
+p {
+	display: inline-block;
+}
+
+.pre {
+	white-space: pre;
+}
+
+a, a:visited {
+	color: white;
+	
+}
+
+table {
+	border-collapse: collapse;
+	text-align: center;
+}
+
+th {
+	background-color: white;
+	color: #2b2b2b;
+}
+
+td, th {
+	border: 1px solid white;
+	padding: 8px 65px;
+
+}
+
+.doctable-table tr td {
+	padding: 15px 0;
+}
+
+.doctable-table .emphasis {
+	color: #f27609;
+}
+
+
+
+form .field {
+	background-color: transparent;
+	font-family: 'Montserrat', sans-serif;
+	border: 1px solid white;
+	color: white;
+	padding-left: 10px;
+	height: 32px;
+	margin-top: 5px;
+	width: 300px;
+
+}
+
+form .submit {
+	background-color: #f27609;
+	font-family: 'Montserrat', sans-serif;
+	border: none;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 14px;
+	border-radius: 50px;
+	cursor: pointer;
+	height: 40px;
+	width: 310px;
+	margin-top: 20px;
+
+
+}
+
+form .submit:hover {
+	background-color: white;
+	color: #f27609;
+	transition: 0.5s;
+}
+
+.erro-form {
+	color: red;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.sucesso-form {
+	color: white;
+	font-size: 12px;
+	margin-top: 15px;
+}
+
+.bottom-index {
+	margin-top: 150px;
+}
+
+.bottom-index button {
+	height: 50px;
+	width: 160px;
+	max-width: 100%;
+	background-color: #f27609;
+	border: none;
+	color: white;
+	font-weight: bold;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+.anterior {
+	float: left;
+	max-width: 45%;
+}
+
+.proxima {
+	float: right;
+	max-width: 45%;
+}
+
+.indice {
+	clear: both;
+	padding-top: 50px;
+	}
+
+.indice h4 {
+	text-decoration: underline;
+}
+
+.indice ul {
+	padding-left: 0;
+}
+.indice ul li {
+	margin: 15px 0;
+	list-style: none;
+}
+
+.indice a {
+	text-decoration: none;
+	cursor: pointer;
+}
+.aula_atual {
+	color: #f27609;
+}
+
+.gallery-001  img {
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	width: 23%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txtIconeReserva">Icone Reserva</string>
+    <string name="txtCnpjDados">CNPJ</string>
+    <string name="txtEnderecoDados">Endereço</string>
+    <string name="txtBairroDados">Bairro</string>
+    <string name="txtUfDados">UF</string>
+    <string name="txtCepDados">CEP</string>
+    <string name="txtDescricaoDados">Descrição</string>
+    <string name="txtHorarioDados">Horário de Funcionamento</string>
+    <string name="txtSegundaDados">Segunda</string>
+    <string name="txtAsDados">Às:</string>
+    <string name="txtTercaDados">Terça</string>
+    <string name="txtQuartaDados">Quarta</string>
+    <string name="txtQuintaDados">Quinta</string>
+    <string name="txtSextaDados">Sexta</string>
+    <string name="txtSabadoDados">Sábado</string>
+    <string name="txtDomingoDados">Domingo</string>
+    <string name="txtEmailDados">Email</string>
+    <string name="txtSenhaDados">Senha</string>
+    <string name="txtNomeAdd">Nome do Cliente</string>
+    <string name="txtQtdAdd">Quantidade de Pessoas</string>
+    <string name="txtTelefoneAdd">Telefone Cliente</string>
+    <string name="txtIdClienteAdd">Id Cadastro do Cliente</string>
+    <string name="txtTituloAdd">Adicionar Fila</string>
+    <string name="txtEmailClienteAdd">Email de Cadastro do Cliente</string>
+    <string name="menu_antigas">Reservas Antigas</string>
+    <string name="reativar">Reativar Reserva</string>
+</resources>

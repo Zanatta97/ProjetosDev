@@ -1,0 +1,4 @@
+#Fri Nov 22 10:50:39 GMT-03:00 2019
+base.0=C\:\\Users\\Samuel\\Desktop\\Samuel\\MediaEscolarMVC\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

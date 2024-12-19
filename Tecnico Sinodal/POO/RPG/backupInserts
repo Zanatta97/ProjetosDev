@@ -1,0 +1,382 @@
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 11.2
+-- Dumped by pg_dump version 11.2
+
+-- Started on 2019-05-08 15:53:11
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+SET row_security = off;
+
+SET default_tablespace = '';
+
+SET default_with_oids = false;
+
+--
+-- TOC entry 196 (class 1259 OID 24661)
+-- Name: ataquefeitico; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.ataquefeitico (
+    codigo integer NOT NULL,
+    nome character varying(100) NOT NULL,
+    descricao character varying(500) NOT NULL,
+    tipo integer NOT NULL,
+    descricaotipo character varying(100) NOT NULL,
+    danobase integer NOT NULL,
+    tipobonus integer NOT NULL,
+    descricaobonus character varying(100) NOT NULL
+);
+
+
+ALTER TABLE public.ataquefeitico OWNER TO postgres;
+
+--
+-- TOC entry 197 (class 1259 OID 24667)
+-- Name: classes; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.classes (
+    codigoclasse integer NOT NULL,
+    nome character varying(100) NOT NULL,
+    descricao character varying(500) NOT NULL,
+    forcabase integer NOT NULL,
+    destrezabase integer NOT NULL,
+    constbase integer NOT NULL,
+    inteligenciabase integer NOT NULL,
+    sabedoriabase integer NOT NULL,
+    carismabase integer NOT NULL,
+    pvbase integer NOT NULL
+);
+
+
+ALTER TABLE public.classes OWNER TO postgres;
+
+--
+-- TOC entry 198 (class 1259 OID 24673)
+-- Name: inventario; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.inventario (
+    codigo integer NOT NULL,
+    codigoitem integer NOT NULL,
+    codigopersonagem integer NOT NULL
+);
+
+
+ALTER TABLE public.inventario OWNER TO postgres;
+
+--
+-- TOC entry 199 (class 1259 OID 24676)
+-- Name: itens; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.itens (
+    codigoitem integer NOT NULL,
+    nome character varying(100) NOT NULL,
+    descricao character varying(500) NOT NULL,
+    tamanho integer NOT NULL,
+    tipo integer NOT NULL,
+    raridade integer NOT NULL,
+    bonusatributo integer NOT NULL
+);
+
+
+ALTER TABLE public.itens OWNER TO postgres;
+
+--
+-- TOC entry 200 (class 1259 OID 24682)
+-- Name: personagens; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.personagens (
+    codigopersonagem integer NOT NULL,
+    nomepersonagem character varying(100) NOT NULL,
+    codigousuario integer NOT NULL,
+    codigoraca integer NOT NULL,
+    codigoclasse integer NOT NULL,
+    nivel integer NOT NULL,
+    xp integer NOT NULL,
+    pvtotal integer NOT NULL,
+    pvatual integer NOT NULL,
+    forca integer NOT NULL,
+    destreza integer NOT NULL,
+    constituicao integer NOT NULL,
+    inteligencia integer NOT NULL,
+    sabedoria integer NOT NULL,
+    carisma integer NOT NULL,
+    armaatual integer NOT NULL,
+    armaduraatual integer NOT NULL,
+    tamanhoinv integer NOT NULL
+);
+
+
+ALTER TABLE public.personagens OWNER TO postgres;
+
+--
+-- TOC entry 201 (class 1259 OID 24685)
+-- Name: racas; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.racas (
+    codigoraca integer NOT NULL,
+    nome character varying(100) NOT NULL,
+    descricao character varying(500) NOT NULL,
+    forcabase integer NOT NULL,
+    destrezabase integer NOT NULL,
+    constbase integer NOT NULL,
+    inteligenciabase integer NOT NULL,
+    sabedoriabase integer NOT NULL,
+    carismabase integer NOT NULL,
+    pvbase integer NOT NULL
+);
+
+
+ALTER TABLE public.racas OWNER TO postgres;
+
+--
+-- TOC entry 202 (class 1259 OID 24691)
+-- Name: usuarios; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.usuarios (
+    codigousuario integer NOT NULL,
+    login character varying(25) NOT NULL,
+    senha character varying(25) NOT NULL,
+    codigopersonagem1 integer,
+    codigopersonagem2 integer,
+    codigopersonagem3 integer,
+    ultimologin timestamp without time zone,
+    ultimologoff timestamp without time zone,
+    horasjogadas time without time zone
+);
+
+
+ALTER TABLE public.usuarios OWNER TO postgres;
+
+--
+-- TOC entry 2854 (class 0 OID 24661)
+-- Dependencies: 196
+-- Data for Name: ataquefeitico; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.ataquefeitico (codigo, nome, descricao, tipo, descricaotipo, danobase, tipobonus, descricaobonus) FROM stdin;
+\.
+
+
+--
+-- TOC entry 2855 (class 0 OID 24667)
+-- Dependencies: 197
+-- Data for Name: classes; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.classes (codigoclasse, nome, descricao, forcabase, destrezabase, constbase, inteligenciabase, sabedoriabase, carismabase, pvbase) FROM stdin;
+1	BÁRBARO	Bárbaros são guerreiros de origem selvagem, por sua distância da civilização, \n eles utilizam a força bruta, ou seja, atacam com mais violência e aguentam mais dano. \n Bárbaros dão preferência a armas grandes, como machados e espadas de duas mãos. Contudo não são muito inteligentes.	5	3	4	1	2	1	45
+3	LADINO	Ladinos são uma classe de ladrões furtivos e escorregadios. \n Apesar disso são muito úteis no grupo de batalha como batedores e com seus ataques furtivos, \n são inteligentes a ponto de derrotar mais poderoso dos inimigos, utilizando somente estratégias.	3	5	3	4	5	4	35
+4	MAGO	Magos têm o poder de utilizar os poderes naturais e elementais \n como Terra, Fogo, água, ar e os poderes da natureza. A arma que o Mago utiliza geralmente é um cajado que contém os poderes.\n Os Magos são fisicamente fracos, contudo são muito sábios.	1	2	2	5	5	4	25
+5	RANGER	Rangers sabem usar todas as armas de longo alcance, sendo assim , muito habilidosos em combate. \n São acostumados com o ambiente selvagem, sabem de coisas relativas a esse meio, \n o que geralmente os torna excelente rastreadores e caçadores, bem como peritos em sobrevivência, \n por sua ligação natural.	2	3	1	4	4	4	20
+2	GUERREIRO	Guerreiros sabem usar todos os tipos de armaduras e escudos, \n o uso de escudos é frequentemente usado nesta classe. Sua função no combate é de "Defensor" (Tanque), \n ou seja, a linha de frente do combate. Mas também pode assumir as funções de "Agressor" (Dano).	4	2	5	2	3	3	50
+\.
+
+
+--
+-- TOC entry 2856 (class 0 OID 24673)
+-- Dependencies: 198
+-- Data for Name: inventario; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.inventario (codigo, codigoitem, codigopersonagem) FROM stdin;
+\.
+
+
+--
+-- TOC entry 2857 (class 0 OID 24676)
+-- Dependencies: 199
+-- Data for Name: itens; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.itens (codigoitem, nome, descricao, tamanho, tipo, raridade, bonusatributo) FROM stdin;
+\.
+
+
+--
+-- TOC entry 2858 (class 0 OID 24682)
+-- Dependencies: 200
+-- Data for Name: personagens; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.personagens (codigopersonagem, nomepersonagem, codigousuario, codigoraca, codigoclasse, nivel, xp, pvtotal, pvatual, forca, destreza, constituicao, inteligencia, sabedoria, carisma, armaatual, armaduraatual, tamanhoinv) FROM stdin;
+\.
+
+
+--
+-- TOC entry 2859 (class 0 OID 24685)
+-- Dependencies: 201
+-- Data for Name: racas; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.racas (codigoraca, nome, descricao, forcabase, destrezabase, constbase, inteligenciabase, sabedoriabase, carismabase, pvbase) FROM stdin;
+\.
+
+
+--
+-- TOC entry 2860 (class 0 OID 24691)
+-- Dependencies: 202
+-- Data for Name: usuarios; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.usuarios (codigousuario, login, senha, codigopersonagem1, codigopersonagem2, codigopersonagem3, ultimologin, ultimologoff, horasjogadas) FROM stdin;
+1	ZanattaGamer	123456789	\N	\N	\N	\N	\N	\N
+\.
+
+
+--
+-- TOC entry 2712 (class 2606 OID 24695)
+-- Name: ataquefeitico ataquefeitico_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.ataquefeitico
+    ADD CONSTRAINT ataquefeitico_pkey PRIMARY KEY (codigo);
+
+
+--
+-- TOC entry 2714 (class 2606 OID 24697)
+-- Name: classes classes_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.classes
+    ADD CONSTRAINT classes_pkey PRIMARY KEY (codigoclasse);
+
+
+--
+-- TOC entry 2716 (class 2606 OID 24699)
+-- Name: inventario inventario_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.inventario
+    ADD CONSTRAINT inventario_pkey PRIMARY KEY (codigo);
+
+
+--
+-- TOC entry 2718 (class 2606 OID 24701)
+-- Name: itens itens_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.itens
+    ADD CONSTRAINT itens_pkey PRIMARY KEY (codigoitem);
+
+
+--
+-- TOC entry 2720 (class 2606 OID 24703)
+-- Name: personagens personagens_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.personagens
+    ADD CONSTRAINT personagens_pkey PRIMARY KEY (codigopersonagem);
+
+
+--
+-- TOC entry 2722 (class 2606 OID 24705)
+-- Name: racas racas_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.racas
+    ADD CONSTRAINT racas_pkey PRIMARY KEY (codigoraca);
+
+
+--
+-- TOC entry 2724 (class 2606 OID 24707)
+-- Name: usuarios usuarios_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.usuarios
+    ADD CONSTRAINT usuarios_pkey PRIMARY KEY (codigousuario);
+
+
+--
+-- TOC entry 2725 (class 2606 OID 24708)
+-- Name: inventario inventario_codigoitem_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.inventario
+    ADD CONSTRAINT inventario_codigoitem_fkey FOREIGN KEY (codigoitem) REFERENCES public.itens(codigoitem);
+
+
+--
+-- TOC entry 2726 (class 2606 OID 24713)
+-- Name: inventario inventario_codigopersonagem_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.inventario
+    ADD CONSTRAINT inventario_codigopersonagem_fkey FOREIGN KEY (codigopersonagem) REFERENCES public.personagens(codigopersonagem);
+
+
+--
+-- TOC entry 2727 (class 2606 OID 24718)
+-- Name: personagens personagens_armaatual_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.personagens
+    ADD CONSTRAINT personagens_armaatual_fkey FOREIGN KEY (armaatual) REFERENCES public.itens(codigoitem);
+
+
+--
+-- TOC entry 2728 (class 2606 OID 24723)
+-- Name: personagens personagens_armaduraatual_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.personagens
+    ADD CONSTRAINT personagens_armaduraatual_fkey FOREIGN KEY (armaduraatual) REFERENCES public.itens(codigoitem);
+
+
+--
+-- TOC entry 2729 (class 2606 OID 24728)
+-- Name: personagens personagens_codigoclasse_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.personagens
+    ADD CONSTRAINT personagens_codigoclasse_fkey FOREIGN KEY (codigoclasse) REFERENCES public.classes(codigoclasse);
+
+
+--
+-- TOC entry 2730 (class 2606 OID 24733)
+-- Name: personagens personagens_codigoraca_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.personagens
+    ADD CONSTRAINT personagens_codigoraca_fkey FOREIGN KEY (codigoraca) REFERENCES public.racas(codigoraca);
+
+
+--
+-- TOC entry 2731 (class 2606 OID 24738)
+-- Name: personagens personagens_codigousuario_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.personagens
+    ADD CONSTRAINT personagens_codigousuario_fkey FOREIGN KEY (codigousuario) REFERENCES public.usuarios(codigousuario);
+
+
+--
+-- TOC entry 2732 (class 2606 OID 24743)
+-- Name: usuarios usuarios_codigopersonagem1_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.usuarios
+    ADD CONSTRAINT usuarios_codigopersonagem1_fkey FOREIGN KEY (codigopersonagem1) REFERENCES public.personagens(codigopersonagem);
+
+
+-- Completed on 2019-05-08 15:53:11
+
+--
+-- PostgreSQL database dump complete
+--
+

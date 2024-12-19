@@ -1,0 +1,534 @@
+[
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\font_acme.ttf.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\font\\acme.ttf"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_menu_gallery.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu_gallery.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_gallery.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_menu_gallery.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_menu_list.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_menu_list.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dados.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\layout\\fragment_dados.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_lista.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\layout\\fragment_lista.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_send.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_menu_send.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_adicionar.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\layout\\fragment_adicionar.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu_slideshow.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_menu_slideshow.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_pressed.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable\\btn_pressed.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_list.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_list.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_menu_home.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_menu_home.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_menu_send.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_menu_send.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_camera.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_menu_camera.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu_reserva.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-xxhdpi\\ic_menu_reserva.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_home.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_home.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_menu_gallery.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_menu_gallery.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\layout_alert_dialog_procurar_cliente.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\layout\\alert_dialog_procurar_cliente.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_settings.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_settings.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_disabled.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable\\btn_disabled.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_slideshow.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_menu_slideshow.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu_settings.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-xxhdpi\\ic_menu_settings.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_camera.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_menu_camera.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_send.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-v21\\ic_menu_send.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_send.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\layout\\fragment_send.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu_gallery.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_menu_gallery.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_menu_slideshow.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_send.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_menu_send.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_reserva.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_reserva.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_menu_home.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu_home.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_menu_settings.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu_settings.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_slideshow.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_menu_slideshow.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_list.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_list.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_menu_list.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu_list.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_gallery.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_menu_gallery.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_cadastrar.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\layout\\fragment_cadastrar.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_home.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_home.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_menu_settings.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_menu_settings.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_menu_slideshow.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu_slideshow.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu_camera.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_menu_camera.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\layout_listwiev_reservas_antigas.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\layout\\listwiev_reservas_antigas.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_reserva.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_reserva.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_camera.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-v21\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_menu_settings.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_menu_settings.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_settings.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_settings.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_reserva.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_reserva.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_menu_slideshow.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_menu_slideshow.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_lista_antigas.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\layout\\fragment_lista_antigas.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu_send.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_menu_send.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_customizado.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable\\btn_customizado.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_btn_enabled.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-v21\\btn_enabled.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_enabled.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable\\btn_enabled.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\layout_alert_dialog_alterar_senha.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\layout\\alert_dialog_alterar_senha.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_menu_list.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_menu_list.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_settings.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_settings.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_menu_add.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_menu_add.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu_list.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-xxhdpi\\ic_menu_list.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu_home.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-xxhdpi\\ic_menu_home.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\layout_listwiev_reservas.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\layout\\listwiev_reservas.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_gallery.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-v21\\ic_menu_gallery.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_slideshow.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-v21\\ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_menu_camera.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu_camera.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_menu_home.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_menu_home.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_menu_send.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_menu_send.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_btn_disabled.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-v21\\btn_disabled.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_menu_gallery.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_menu_gallery.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu_add.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-xxhdpi\\ic_menu_add.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_btn_customizado.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-v21\\btn_customizado.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_btn_pressed.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-v21\\btn_pressed.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_add.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_add.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_menu_add.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu_add.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_camera.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_menu_camera.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_slideshow.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_menu_slideshow.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\layout_alert_dialog_editar_reserva.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\layout\\alert_dialog_editar_reserva.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_list.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_list.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_gallery.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_menu_gallery.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_menu_reserva.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_menu_reserva.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_home.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_home.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_add.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_add.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_menu_camera.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_add.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_add.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_menu_camera.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_menu_camera.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_menu_send.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu_send.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_menu_add.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_menu_add.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_send.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_menu_send.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android\\ControleDeEntradaEmpresas\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "E:\\Android\\ControleDeEntradaEmpresas\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    }
+]

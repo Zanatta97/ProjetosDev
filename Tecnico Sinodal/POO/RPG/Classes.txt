@@ -1,0 +1,113 @@
+  Tarma = class
+    private
+      fCodigo: integer;
+      fNome: string;
+      fDescricao: string;
+      fTamanho: integer;
+      fTipo: string;
+      procedure setCodigo (const Value: integer);
+      procedure setNome (const Value: string);
+      procedure setDescricao (const Value: string);
+      procedure setTamanho (const Value: integer);
+      procedure setTipo (const Value: string);
+    public
+
+    published
+      property Codigo: integer read setCodigo write fCodigo;
+      property Nome: string read setNome write fNome;
+      property Descricao: string read setDescricao write fDescricao;
+      property Tamanho: integer read setTamanho write fTamanho;
+      property Tipo: string read setTipo write fTipo;
+
+  end;
+
+    Tarmadura = class
+    private
+      fCodigo: integer;
+      fNome: string;
+      fDescricao: string;
+      fTamanho: integer;
+      fTipo: string;
+      procedure setCodigo (const Value: integer);
+      procedure setNome (const Value: string);
+      procedure setDescricao (const Value: string);
+      procedure setTamanho (const Value: integer);
+      procedure setTipo (const Value: string);
+    public
+
+    published
+      property Codigo: integer read setCodigo write fCodigo;
+      property Nome: string read setNome write fNome;
+      property Descricao: string read setDescricao write fDescricao;
+      property Tamanho: integer read setTamanho write fTamanho;
+      property Tipo: string read setTipo write fTipo;
+
+  end;
+
+  Tpersonagem = class
+    private
+      fCodigo: integer;
+      fNome: string;
+      fNivel: integer;
+      fXP: integer;
+      fRaca: string;
+      fClasse: string;
+      fPVMax: integer;
+      fPVAtual: integer;
+      fForca: integer;
+      fDestreza: integer;
+      fConstituicao: integer;
+      fInteligencia: integer;
+      fSabedoria: integer;
+      fCarisma: integer;
+      fArma: integer;
+      fArmadura: integer;
+      fInventario: integer;
+      procedure setCodigo (const Value: integer);
+      procedure setNome (const Value: string);
+      procedure setNivel (const Value: integer);
+      procedure setRaca (const Value: string);
+      procedure setClasse (const Value: string);
+      procedure setPVMax (const Value: integer);
+      procedure setPVAtual (const Value: integer);
+      procedure setForca (const Value: integer);
+      procedure setDestreza (const Value: integer);
+      procedure setConstituicao (const Value: integer);
+      procedure setInteligencia (const Value: integer);
+      procedure setSabedoria (const Value: integer);
+      procedure setCarisma (const Value: integer);
+      procedure setArma (const Value: integer);
+      procedure setArmadura (const Value: integer);
+      procedure setInventario (const Value: integer);
+
+    public
+
+    published
+    property Codigo: integer read setCodigo write fCodigo;
+    property Nome: string read setNome write fNome;
+    property Nivel: integer read setNivel write fNivel;
+    property Raca: string read setRaca write fRaca;
+    property Classe: string read setClasse write fClasse;
+    property PVMax: integer read setPVMax write fPVMax;
+    property PVAtual: integer read setPVAtual write fPVAtual;
+    property Forca: integer read setForca write fForca;
+    property Destreza: integer read setDestreza write fDestreza;
+    property Constituicao: integer read setConstituicao write fConstituicao;
+    property Inteligencia: integer read setInteligencia write fInteligencia;
+    property Sabedoria: integer read setSabedoria write fSabedoria;
+    property Carisma: integer read setCarisma write fCarisma;
+    property Arma: integer read setArma write fArma;
+    property Armadura: integer read setArmadura write fArmadura;
+    property inventario: integer read setInventario write fInventario;
+  end;
+
+  TuserAtual = class
+    private
+
+    public
+      fNome: string;
+      fPersonagem1: Tpersonagem;
+      fPersonagem2: Tpersonagem;
+      fPersonagem3: Tpersonagem;
+    published
+  end;
