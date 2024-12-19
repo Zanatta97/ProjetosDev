@@ -6,8 +6,6 @@ Bem-vindo ao repositório de projetos iniciais da minha jornada de aprendizado e
 - [Sobre o Repositório](#sobre-o-repositório)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Projetos Incluídos](#projetos-incluídos)
-- [Como Explorar os Projetos](#como-explorar-os-projetos)
-- [Contribuições](#contribuições)
 - [Contato](#contato)
 
 ## Sobre o Repositório
@@ -38,3 +36,9 @@ Alguns dos projetos presentes neste repositório incluem:
 2. **Projetos Android** - Aplicativos criados durante minha exploração na plataforma Android, onde também desenvolvi meu TCC do curso Técnico do Colégio Sinodal Progresso de Montenegro em 2020.
 3. **Projetos do Curso Técnico** - Incluem exercícios e projetos desenvolvidos durante o curso técnico no Colégio Sinodal.
 4. **Projetos Diversos** - Outros projetos variados que complementaram meu aprendizado.
+
+## Contato
+
+Se você quiser entrar em contato comigo, pode me encontrar no [LinkedIn](https://www.linkedin.com/in/samuel-zanatta-bb606910b/) ou enviar um e-mail para sa.zanatta@hotmail.com. Caso tenha dúvidas específicas sobre algum projeto, inclua o nome do projeto no assunto para facilitar o retorno.
+
+Obrigado por visitar meu repositório! Espero que você encontre algo útil aqui, ou que meus projetos sirvam como inspiração para sua própria jornada. Caso tenha feedback, compartilhe! Isso será muito valioso para meu aprendizado.
