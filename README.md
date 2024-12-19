@@ -45,6 +45,15 @@ Se você quiser entrar em contato comigo, pode me encontrar no [LinkedIn](https:
 
 Obrigado por visitar meu repositório!
 
+<br>
+<br>
+
+****
+_______
+
+<br>
+<br>
+
 ``EN``
 # Initial Learning Projects
 
