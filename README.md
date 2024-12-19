@@ -39,6 +39,6 @@ Alguns dos projetos presentes neste repositório incluem:
 
 ## Contato
 
-Se você quiser entrar em contato comigo, pode me encontrar no [LinkedIn](https://www.linkedin.com/in/samuel-zanatta-bb606910b/) ou enviar um e-mail para sa.zanatta@hotmail.com. Caso tenha dúvidas específicas sobre algum projeto, inclua o nome do projeto no assunto para facilitar o retorno.
+Se você quiser entrar em contato comigo, pode me encontrar no [LinkedIn](https://www.linkedin.com/in/samuel-zanatta-bb606910b/) ou enviar um e-mail para sa.zanatta@hotmail.com.
 
-Obrigado por visitar meu repositório! Espero que você encontre algo útil aqui, ou que meus projetos sirvam como inspiração para sua própria jornada. Caso tenha feedback, compartilhe! Isso será muito valioso para meu aprendizado.
+Obrigado por visitar meu repositório!
