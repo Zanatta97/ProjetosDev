@@ -1,10 +1,15 @@
 alert("Hello There, boas vindas ao jogo do número secreto.");
 
-let numeroMaximo = 30;
+let numeroMaximo = 100;
 
-let numeroSecreto = parseInt(Math.random() * numeroMaximo);
+let numeroSecreto = parseInt((Math.random() * numeroMaximo) + 1);
+
+console.log(`Número Secreto: ${numeroSecreto}`);
+
+let tentativas = 0;
 
 let numeroUsuario = validaNumero(rececbeNumeroUsuario(1));
+
 
 let acertou = false;
 
@@ -19,19 +24,35 @@ while (acertou == false) {
     }
 };
 
+document.getElementById("titulo").textContent = `Você acertou!`;
+
+let texto = tentativas > 1 ? "tentativas" : "tentativa";
+
+document.getElementById("textoAcertou").textContent = `Você descobriu o número secreto ${numeroSecreto} em ${tentativas} ${texto}!`;
+
+/*if (tentativas > 1) {
+    document.getElementById("textoAcertou").textContent = `Você descobriu o número secreto em ${tentativas} tentativas!`;
+} else {
+    document.getElementById("textoAcertou").textContent = `Você descobriu o número secreto em ${tentativas} tentativa!`;
+}*/
+
+//Recebe o número do usuário com a mensagem escolhida
 function rececbeNumeroUsuario(mensagem){
     
     switch (mensagem){
         case 1 : {
-            return prompt("Tente advinhar o número secreto! Deve ser entre 1 e " + numeroMaximo.toString());
+            tentativas ++;
+            return prompt(`Tente advinhar o número secreto! Deve ser entre 1 e ${numeroMaximo.toString()}!`); //Crase para definir uma string permite inserir variáveis utilizando ${}
         }
         
         case 2 : {
-            return prompt("O Número secreto é maior que o número selecionado! Tente novamente!");
+            tentativas ++;
+            return prompt(`O Número secreto é maior que ${numeroUsuario}! Tente novamente!`);
         }
 
         case 3 : {
-            return prompt("O Número secreto é menor que o número selecionado! Tente novamente!");
+            tentativas ++;
+            return prompt(`O Número secreto é menor que ${numeroUsuario}! Tente novamente!`);
         }
 
         case 4 :{
@@ -42,6 +63,7 @@ function rececbeNumeroUsuario(mensagem){
      
 }
 
+//valida se é o usuário digitou um número mesmo
 function validaNumero(numero) {
 
     if (isNaN(numero)){
