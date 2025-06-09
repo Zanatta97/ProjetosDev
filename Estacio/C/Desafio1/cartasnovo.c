@@ -14,6 +14,15 @@ float calculoDensidade (float area, int pop){
 
 };
 
+float calculoSuperPoder(int populacao, float area, float pib, int pontosTuristicos){
+
+  float densidade = calculoDensidade(area, populacao);
+  float perCapta = calculoPib(populacao, pib);
+  float total = populacao + area + pib + pontosTuristicos + (densidade * -1) + perCapta;
+  return total;
+
+};
+
 void exibirDadosCarta(char codigo[3],
                       char estado[2],
                       char nome[50],
@@ -29,16 +38,51 @@ void exibirDadosCarta(char codigo[3],
   printf("Nome da Cidade: %s\n", nome);
   printf("População: %d\n", populacao);
   printf("Pontos Turísticos: %d\n", pontosTuristicos);
-  printf("Área: %f\n", area);
-  printf("PIB: %f\n", pib);
-  printf("Densidade Populacional: %f\n", calculoDensidade(area, populacao));
-  printf("PIB Per Capita: %f\n\n", calculoPib(populacao, pib));
+  printf("Área: %.2f\n", area);
+  printf("PIB: %.2f\n", pib);
+  printf("Densidade Populacional: %.2f\n", calculoDensidade(area, populacao));
+  printf("PIB Per Capita: %.2f\n", calculoPib(populacao, pib));
+  printf("Super Poder: %.2f\n\n\n", calculoSuperPoder(populacao, area, pib, pontosTuristicos));
 
 };
 
-float calculoSuperPoder(){
+void comparaAtributo(float atributoCarta1, float atributoCarta2, char nomeAtributo[25]){
+  
+  int vencedor;
 
-};
+  if (atributoCarta1 > atributoCarta2) {
+    vencedor = 1;
+  } else if (atributoCarta2 > atributoCarta1) {
+    vencedor = 2;
+  } else {
+    vencedor = 0;
+  }
+  if (nomeAtributo == "Densidade Populacional"){
+    if (vencedor == 1){
+      printf("%s: ", nomeAtributo);
+      printf("Carta 2 venceu com %.2f\n\n", atributoCarta2);
+    } else if (vencedor == 2){
+      printf("%s: ", nomeAtributo);
+      printf("Carta 1 venceu com %.2f\n\n", atributoCarta1);
+    } else{
+      printf("%s: ", nomeAtributo);
+      printf("Empatou!!\n\n");
+    }
+  } else {
+    if (vencedor == 1){
+      printf("%s: ", nomeAtributo);
+      printf("Carta 1 venceu com %.2f\n\n", atributoCarta1);
+    } else if (vencedor == 2){
+      printf("%s: ", nomeAtributo);
+      printf("Carta 2 venceu com %.2f\n\n", atributoCarta2);
+    } else{
+      printf("%s: ", nomeAtributo);
+      printf("Empatou!!\n\n");
+    }
+  }
+  
+  
+}
 
 int main (){
 
@@ -87,6 +131,16 @@ int main (){
 
   exibirDadosCarta(codigoCarta2, estadoCarta2, nomeCarta2, 
                   populacaoCarta2, pontosTuristicosCarta2, areaCarta2, pibCarta2, 2);
+
+  printf("\n\nE os vencedores são:\n\n");
+  comparaAtributo((float)populacaoCarta1, (float)populacaoCarta2, "População");
+  comparaAtributo((float)pontosTuristicosCarta1, (float)pontosTuristicosCarta2, "Pontos Turísticos");
+  comparaAtributo(areaCarta1, areaCarta2, "Área");
+  comparaAtributo(pibCarta1, pibCarta2, "PIB");
+  comparaAtributo(calculoDensidade(areaCarta1, populacaoCarta1), calculoDensidade(areaCarta2, populacaoCarta2), "Densidade Populacional");
+  comparaAtributo(calculoPib(populacaoCarta1, pibCarta1), calculoPib(populacaoCarta2, pibCarta2), "PIB Per Capita");
+  comparaAtributo(calculoSuperPoder(populacaoCarta1, areaCarta1, pibCarta1, pontosTuristicosCarta1),
+                  calculoSuperPoder(populacaoCarta2, areaCarta2, pibCarta2, pontosTuristicosCarta2), "Super Poder");
 
   /*
   int idade = 20;
