@@ -14,6 +14,7 @@ float calculoDensidade (float area, int pop){
 
 };
 
+//calcula o super poder das cartas
 float calculoSuperPoder(int populacao, float area, float pib, int pontosTuristicos){
 
   float densidade = calculoDensidade(area, populacao);
@@ -23,6 +24,7 @@ float calculoSuperPoder(int populacao, float area, float pib, int pontosTuristic
 
 };
 
+//exibe os dados das cartas
 void exibirDadosCarta(char codigo[3],
                       char estado[2],
                       char nome[50],
@@ -46,6 +48,7 @@ void exibirDadosCarta(char codigo[3],
 
 };
 
+//compara os atributos das cartas e retorna o vencedor
 void comparaAtributo(float atributoCarta1, float atributoCarta2, char nomeAtributo[25]){
   
   int vencedor;
@@ -57,7 +60,8 @@ void comparaAtributo(float atributoCarta1, float atributoCarta2, char nomeAtribu
   } else {
     vencedor = 0;
   }
-  if (nomeAtributo == "Densidade Populacional"){
+  
+  if (nomeAtributo == "Densidade Populacional"){ //se for Densidade deve retornar o de menor valor
     if (vencedor == 1){
       printf("%s: ", nomeAtributo);
       printf("Carta 2 venceu com %.2f\n\n", atributoCarta2);
@@ -126,12 +130,15 @@ int main (){
 
   printf("Segue abaixo os dados das Cartas informados \n\n");
 
+  //imprime os dados da carta 1
   exibirDadosCarta(codigoCarta1, estadoCarta1, nomeCarta1, 
                   populacaoCarta1, pontosTuristicosCarta1, areaCarta1, pibCarta1, 1);
 
+  //imprime os dados da carta 2
   exibirDadosCarta(codigoCarta2, estadoCarta2, nomeCarta2, 
                   populacaoCarta2, pontosTuristicosCarta2, areaCarta2, pibCarta2, 2);
 
+  //retorna os vencedores de cada atributo.
   printf("\n\nE os vencedores são:\n\n");
   comparaAtributo((float)populacaoCarta1, (float)populacaoCarta2, "População");
   comparaAtributo((float)pontosTuristicosCarta1, (float)pontosTuristicosCarta2, "Pontos Turísticos");
