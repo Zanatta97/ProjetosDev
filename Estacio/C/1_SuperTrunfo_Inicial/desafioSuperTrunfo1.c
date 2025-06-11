@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 //calcula do PIB per capita da cidade
 float calculoPib (int pop, float pib){
@@ -49,7 +50,7 @@ void exibirDadosCarta(char codigo[3],
 };
 
 //compara os atributos das cartas e retorna o vencedor
-void comparaAtributo(float atributoCarta1, float atributoCarta2, char nomeAtributo[25]){
+void comparaAtributo(float atributoCarta1, float atributoCarta2, char nomeAtributo[25], char nomeCarta1[50], char nomeCarta2[50], char uf1[3], char uf2[3]){
   
   int vencedor;
 
@@ -60,96 +61,197 @@ void comparaAtributo(float atributoCarta1, float atributoCarta2, char nomeAtribu
   } else {
     vencedor = 0;
   }
-  
+  printf("==================================\n\n");
   if (nomeAtributo == "Densidade Populacional"){ //se for Densidade deve retornar o de menor valor
     if (vencedor == 1){
-      printf("%s: ", nomeAtributo);
-      printf("Carta 2 venceu com %.2f\n\n", atributoCarta2);
+      printf("%s: \n", nomeAtributo);
+      printf("Carta 1 %.2f - %s (%s)\n", atributoCarta1, nomeCarta1, uf1);
+      printf("Carta 2 %.2f - %s (%s)\n", atributoCarta2, nomeCarta2, uf2);
+      printf("Carta 2 (%s) venceu com %.2f\n\n", nomeCarta2, atributoCarta2);
     } else if (vencedor == 2){
-      printf("%s: ", nomeAtributo);
-      printf("Carta 1 venceu com %.2f\n\n", atributoCarta1);
+      printf("%s: \n", nomeAtributo);
+      printf("Carta 1 %.2f - %s (%s)\n", atributoCarta1, nomeCarta1, uf1);
+      printf("Carta 2 %.2f - %s (%s)\n", atributoCarta2, nomeCarta2, uf2);
+      printf("Carta 1 (%s) venceu com %.2f\n\n", nomeCarta1, atributoCarta1);
     } else{
-      printf("%s: ", nomeAtributo);
+      printf("%s: \n", nomeAtributo);
+      printf("Carta 1 %.2f - %s (%s)\n", atributoCarta1, nomeCarta1, uf1);
+      printf("Carta 2 %.2f - %s (%s)\n", atributoCarta2, nomeCarta2, uf2);
       printf("Empatou!!\n\n");
     }
   } else {
     if (vencedor == 1){
-      printf("%s: ", nomeAtributo);
-      printf("Carta 1 venceu com %.2f\n\n", atributoCarta1);
+      printf("%s: \n", nomeAtributo);
+      printf("Carta 1 %.2f - %s (%s)\n", atributoCarta1, nomeCarta1, uf1);
+      printf("Carta 2 %.2f - %s (%s)\n", atributoCarta2, nomeCarta2, uf2);
+      printf("Carta 1 (%s) venceu com %.2f\n\n", nomeCarta1, atributoCarta1);
     } else if (vencedor == 2){
-      printf("%s: ", nomeAtributo);
-      printf("Carta 2 venceu com %.2f\n\n", atributoCarta2);
+      printf("%s: \n", nomeAtributo);
+      printf("Carta 1 %.2f - %s (%s)\n", atributoCarta1, nomeCarta1, uf1);
+      printf("Carta 2 %.2f - %s (%s)\n", atributoCarta2, nomeCarta2, uf2);
+      printf("Carta 2 (%s) venceu com %.2f\n\n", nomeCarta2, atributoCarta2);
     } else{
-      printf("%s: ", nomeAtributo);
+      printf("%s: \n", nomeAtributo);
+      printf("Carta 1 %.2f - %s (%s)\n", atributoCarta1, nomeCarta1, uf1);
+      printf("Carta 2 %.2f - %s (%s)\n", atributoCarta2, nomeCarta2, uf2);
       printf("Empatou!!\n\n");
     }
   }
-  
-  
+}
+
+int menuPrincipal (){
+  int escolha;
+  printf("Por Favor, escolha a opção desejada:\n\n");
+  printf("[1] Cadastrar Cartas\n\n");
+  printf("[2] Comparar Atributos\n\n");
+  printf("[3] Retornar ao menu principal\n\n");
+  printf("[4] Finalizar\n\n");
+  scanf("%d", &escolha);
+  return escolha;
+}
+
+int menuAtributos(){
+  int escolha;
+  printf("Por Favor, escolha o atributo a ser comparado:\n\n");
+  printf("[1] População\n\n");
+  printf("[2] Pontos Turísticos\n\n");
+  printf("[3] Área\n\n");
+  printf("[4] PIB\n\n");
+  printf("[5] Densidade Populacional\n\n");
+  printf("[6] PIB per Capita\n\n");
+  printf("[7] Super Poder\n\n");
+  scanf("%d", &escolha);
+  return escolha;
 }
 
 int main (){
 
-  char nomeCarta1[50], nomeCarta2[50], codigoCarta1[3], codigoCarta2[3], estadoCarta1[2], estadoCarta2[2];
-  int populacaoCarta1, populacaoCarta2, pontosTuristicosCarta1, pontosTuristicosCarta2;
+  char nomeCarta1[50], nomeCarta2[50], codigoCarta1[4], codigoCarta2[4], estadoCarta1[3], estadoCarta2[3];
+  int populacaoCarta1, populacaoCarta2, pontosTuristicosCarta1, pontosTuristicosCarta2, opcaoSelecionada;
   float areaCarta1, areaCarta2, pibCarta1, pibCarta2;
 
-  //Recebe Dadoas Carta 1
-  printf("\n===================================\n");
-  printf("Informe os dados da primeira carta: \n");
-  printf("Código da Cidade: \n");
-  scanf("%s", codigoCarta1);
-  printf("UF da Cidade: \n");
-  scanf("%s", estadoCarta1);
-  printf("Nome da Cidade: \n");
-  scanf("%s", nomeCarta1);
-  printf("População: \n");
-  scanf("%d", &populacaoCarta1);
-  printf("Pontos Turísticos: \n");
-  scanf("%d", &pontosTuristicosCarta1);
-  printf("Área: \n");
-  scanf("%f", &areaCarta1);
-  printf("PIB: \n");
-  scanf("%f", &pibCarta1);
 
-  //Recebe Dados Carta 2
-  printf("\n===================================\n");
-  printf("Informe os dados da segunda carta: \n");
-  printf("Código da Cidade: \n");
-  scanf("%s", codigoCarta2);
-  printf("UF da Cidade: \n");
-  scanf("%s", estadoCarta2);
-  printf("Nome da Cidade: \n");
-  scanf("%s", nomeCarta2);
-  printf("População: \n");
-  scanf("%d", &populacaoCarta2);
-  printf("Pontos Turísticos: \n");
-  scanf("%d", &pontosTuristicosCarta2);
-  printf("Área: \n");
-  scanf("%f", &areaCarta2);
-  printf("PIB: \n");
-  scanf("%f", &pibCarta2);
+  opcaoSelecionada = menuPrincipal();
 
-  printf("Segue abaixo os dados das Cartas informados \n\n");
+  do {
+    switch (opcaoSelecionada)
+    {
+    case 1: //Cadastrar Cartas
 
-  //imprime os dados da carta 1
-  exibirDadosCarta(codigoCarta1, estadoCarta1, nomeCarta1, 
-                  populacaoCarta1, pontosTuristicosCarta1, areaCarta1, pibCarta1, 1);
+      //Recebe Dadoas Carta 1
+      printf("\n===================================\n\n");
+      printf("Informe os dados da primeira carta: \n");
+      printf("Código da Cidade: \n");
+      scanf("%s", codigoCarta1);
+      printf("UF da Cidade: \n");
+      scanf("%s", estadoCarta1);
+      printf("Nome da Cidade: \n");
+      getchar();
+      fgets(nomeCarta1, sizeof(nomeCarta1), stdin);
+      
+      //remove a quebra de linha do final do nome da Cidade
+      nomeCarta1[strcspn(nomeCarta1, "\n")] = '\0';
+      
+      printf("População: \n");
+      scanf("%d", &populacaoCarta1);
+      printf("Pontos Turísticos: \n");
+      scanf("%d", &pontosTuristicosCarta1);
+      printf("Área: \n");
+      scanf("%f", &areaCarta1);
+      printf("PIB: \n");
+      scanf("%f", &pibCarta1);
 
-  //imprime os dados da carta 2
-  exibirDadosCarta(codigoCarta2, estadoCarta2, nomeCarta2, 
-                  populacaoCarta2, pontosTuristicosCarta2, areaCarta2, pibCarta2, 2);
+      //Recebe Dados Carta 2
+      printf("\n===================================\n\n");
+      printf("Informe os dados da segunda carta: \n");
+      printf("Código da Cidade: \n");
+      scanf("%s", codigoCarta2);
+      printf("UF da Cidade: \n");
+      scanf("%s", estadoCarta2);
+      printf("Nome da Cidade: \n");
+      getchar();
+      fgets(nomeCarta2, sizeof(nomeCarta2), stdin);
+      
+      //remove a quebra de linha do final do nome da Cidade
+      nomeCarta2[strcspn(nomeCarta2, "\n")] = '\0';
 
-  //retorna os vencedores de cada atributo.
-  printf("\n===================================\n");
-  printf("E os vencedores são:\n\n");
-  comparaAtributo((float)populacaoCarta1, (float)populacaoCarta2, "População");
-  comparaAtributo((float)pontosTuristicosCarta1, (float)pontosTuristicosCarta2, "Pontos Turísticos");
-  comparaAtributo(areaCarta1, areaCarta2, "Área");
-  comparaAtributo(pibCarta1, pibCarta2, "PIB");
-  comparaAtributo(calculoDensidade(areaCarta1, populacaoCarta1), calculoDensidade(areaCarta2, populacaoCarta2), "Densidade Populacional");
-  comparaAtributo(calculoPib(populacaoCarta1, pibCarta1), calculoPib(populacaoCarta2, pibCarta2), "PIB Per Capita");
-  comparaAtributo(calculoSuperPoder(populacaoCarta1, areaCarta1, pibCarta1, pontosTuristicosCarta1),
-                  calculoSuperPoder(populacaoCarta2, areaCarta2, pibCarta2, pontosTuristicosCarta2), "Super Poder");
+      printf("População: \n");
+      scanf("%d", &populacaoCarta2);
+      printf("Pontos Turísticos: \n");
+      scanf("%d", &pontosTuristicosCarta2);
+      printf("Área: \n");
+      scanf("%f", &areaCarta2);
+      printf("PIB: \n");
+      scanf("%f", &pibCarta2);
+
+      printf("Segue abaixo os dados das Cartas informados \n\n");
+
+      //imprime os dados da carta 1
+      exibirDadosCarta(codigoCarta1, estadoCarta1, nomeCarta1, 
+                      populacaoCarta1, pontosTuristicosCarta1, areaCarta1, pibCarta1, 1);
+
+      //imprime os dados da carta 2
+      exibirDadosCarta(codigoCarta2, estadoCarta2, nomeCarta2, 
+                      populacaoCarta2, pontosTuristicosCarta2, areaCarta2, pibCarta2, 2);
+
+      opcaoSelecionada = menuPrincipal();
+      break;
+
+    case 2: //Comparar Atributos
+      printf("Escolha qual atributo quer comparar:");
+      int opcaoAtributo = menuAtributos();
+
+      switch (opcaoAtributo)
+      {
+      case 1: //População
+        comparaAtributo((float)populacaoCarta1, (float)populacaoCarta2, "População", nomeCarta1, nomeCarta2, estadoCarta1, estadoCarta2);
+        opcaoSelecionada = menuPrincipal();
+        break;
+      case 2: // Pontos Turisticos
+        comparaAtributo((float)pontosTuristicosCarta1, (float)pontosTuristicosCarta2, "Pontos Turísticos", nomeCarta1, nomeCarta2, estadoCarta1, estadoCarta2);
+        opcaoSelecionada = menuPrincipal();
+        break;
+      case 3: //Area
+        comparaAtributo(areaCarta1, areaCarta2, "Área", nomeCarta1, nomeCarta2, estadoCarta1, estadoCarta2);
+        opcaoSelecionada = menuPrincipal();
+        break;
+      case 4: //PIB
+        comparaAtributo(pibCarta1, pibCarta2, "PIB", nomeCarta1, nomeCarta2, estadoCarta1, estadoCarta2);
+        opcaoSelecionada = menuPrincipal();
+        break;
+      case 5: // Densidade Populacional
+        comparaAtributo(calculoDensidade(areaCarta1, populacaoCarta1), calculoDensidade(areaCarta2, populacaoCarta2), "Densidade Populacional",
+                                         nomeCarta1, nomeCarta2, estadoCarta1, estadoCarta2);
+        opcaoSelecionada = menuPrincipal();
+        break;
+      case 6: //PIB per Capita
+        comparaAtributo(calculoPib(populacaoCarta1, pibCarta1), calculoPib(populacaoCarta2, pibCarta2), "PIB Per Capita", 
+                                   nomeCarta1, nomeCarta2, estadoCarta1, estadoCarta2);
+          opcaoSelecionada = menuPrincipal();
+        break;
+      case 7: //Super Poder
+        comparaAtributo(calculoSuperPoder(populacaoCarta1, areaCarta1, pibCarta1, pontosTuristicosCarta1),
+                      calculoSuperPoder(populacaoCarta2, areaCarta2, pibCarta2, pontosTuristicosCarta2), 
+                      "Super Poder", nomeCarta1, nomeCarta2, estadoCarta1, estadoCarta2);
+        opcaoSelecionada = menuPrincipal();
+        break;
+      default:
+        printf("Opção selecionada inválida, favor escolher novamente: ");
+        opcaoSelecionada = menuAtributos();
+        break;
+      }
+
+      break;
+    case 3: //Voltar ao Menu Principal
+      opcaoSelecionada = menuPrincipal();
+      break;
+    case 4: //finalizar
+      break;
+    default:
+      printf("Opção selecionada inválida, favor escolher novamente: ");
+      opcaoSelecionada = menuPrincipal();
+      break;
+    }
+  } while (opcaoSelecionada != 4);
 
 }
