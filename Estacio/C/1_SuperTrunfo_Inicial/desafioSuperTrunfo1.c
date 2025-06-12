@@ -126,9 +126,10 @@ int menuAtributos(){
 
 int main (){
 
-  char nomeCarta1[50], nomeCarta2[50], codigoCarta1[4], codigoCarta2[4], estadoCarta1[3], estadoCarta2[3];
+  char nomeCarta1[50], nomeCarta2[50], codigoCarta2[4], estadoCarta1[3], estadoCarta2[3];
   int populacaoCarta1, populacaoCarta2, pontosTuristicosCarta1, pontosTuristicosCarta2, opcaoSelecionada;
   float areaCarta1, areaCarta2, pibCarta1, pibCarta2;
+  char codigoCarta1[4] = "";
 
 
   opcaoSelecionada = menuPrincipal();
@@ -138,6 +139,32 @@ int main (){
     {
     case 1: //Cadastrar Cartas
 
+      //Valida se a carta já está cadastrada e questiona o usuário
+      if (codigoCarta1[0] != '\0') {
+
+        printf("\n===================================\n\n");
+        printf("Cartas já cadastradas, deseja recadastrar as cartas?\n");
+        printf("Digite [1] para Sim\n");
+        printf("Digite [0] para Não (retornar ao menu principal)\n\n");
+        int escolhaCadastro = 0;
+        scanf("%d", &escolhaCadastro);
+
+        //se o usuário escolher não, retorna para o menu principal
+        if (escolhaCadastro == 0) {
+          opcaoSelecionada = menuPrincipal();
+          break;
+        } else if (escolhaCadastro == 1)
+        {
+          continue;
+        } else {
+          printf("\n\nEscolha inválida, por favor, selecione novamente!!\n\n");
+          escolhaCadastro = 1;
+          break;
+        }
+        
+
+      } 
+      
       //Recebe Dadoas Carta 1
       printf("\n===================================\n\n");
       printf("Informe os dados da primeira carta: \n");
@@ -146,6 +173,8 @@ int main (){
       printf("UF da Cidade: \n");
       scanf("%s", estadoCarta1);
       printf("Nome da Cidade: \n");
+      
+      //remove buffer e recebe nome da cidade completo se tiver espaços também.
       getchar();
       fgets(nomeCarta1, sizeof(nomeCarta1), stdin);
       
@@ -169,6 +198,8 @@ int main (){
       printf("UF da Cidade: \n");
       scanf("%s", estadoCarta2);
       printf("Nome da Cidade: \n");
+      
+      //remove buffer e recebe nome da cidade completo se tiver espaços também.
       getchar();
       fgets(nomeCarta2, sizeof(nomeCarta2), stdin);
       
@@ -193,7 +224,7 @@ int main (){
       //imprime os dados da carta 2
       exibirDadosCarta(codigoCarta2, estadoCarta2, nomeCarta2, 
                       populacaoCarta2, pontosTuristicosCarta2, areaCarta2, pibCarta2, 2);
-
+      
       opcaoSelecionada = menuPrincipal();
       break;
 
@@ -236,7 +267,7 @@ int main (){
         opcaoSelecionada = menuPrincipal();
         break;
       default:
-        printf("Opção selecionada inválida, favor escolher novamente: ");
+        printf("Opção selecionada inválida, favor escolher novamente: \n");
         opcaoSelecionada = menuAtributos();
         break;
       }
@@ -248,10 +279,9 @@ int main (){
     case 4: //finalizar
       break;
     default:
-      printf("Opção selecionada inválida, favor escolher novamente: ");
+      printf("Opção selecionada inválida, favor escolher novamente: \n");
       opcaoSelecionada = menuPrincipal();
       break;
     }
   } while (opcaoSelecionada != 4);
-
 }
