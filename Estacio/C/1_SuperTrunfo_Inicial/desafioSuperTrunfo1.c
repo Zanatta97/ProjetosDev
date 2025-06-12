@@ -124,11 +124,15 @@ int menuAtributos(){
   return escolha;
 }
 
+float somaAtributos(){
+
+}
+
 int main (){
 
   char nomeCarta1[50], nomeCarta2[50], codigoCarta2[4], estadoCarta1[3], estadoCarta2[3];
   int populacaoCarta1, populacaoCarta2, pontosTuristicosCarta1, pontosTuristicosCarta2, opcaoSelecionada;
-  float areaCarta1, areaCarta2, pibCarta1, pibCarta2;
+  float areaCarta1, areaCarta2, pibCarta1, pibCarta2, somaAtributosCarta1, somaAtributosCarta2;
   char codigoCarta1[4] = "";
 
 
@@ -273,15 +277,169 @@ int main (){
       }
 
       break;
-    case 3: //Voltar ao Menu Principal
+    case 3: //Comparar 2 atributos
+      
+      printf("Escolha dois atributos para realizar a comparação:\n\n");
+      printf("Atributo 1:\n");
+      
+      int escolha1 = menuAtributos();
+
+      switch (escolha1)
+      {
+      case 1: //População
+        
+        comparaAtributo((float)populacaoCarta1, (float)populacaoCarta2, "População", nomeCarta1, nomeCarta2, estadoCarta1, estadoCarta2);
+        
+        somaAtributosCarta1 += populacaoCarta1;
+        somaAtributosCarta2 += populacaoCarta2;
+
+        
+        break;
+
+      case 2: // Pontos Turisticos
+        
+        comparaAtributo((float)pontosTuristicosCarta1, (float)pontosTuristicosCarta2, "Pontos Turísticos", nomeCarta1, nomeCarta2, estadoCarta1, estadoCarta2);
+        
+        somaAtributosCarta1 += pontosTuristicosCarta1;
+        somaAtributosCarta2 += pontosTuristicosCarta2;
+        break;
+
+      case 3: //Area
+        
+        comparaAtributo(areaCarta1, areaCarta2, "Área", nomeCarta1, nomeCarta2, estadoCarta1, estadoCarta2);
+        
+        somaAtributosCarta1 += areaCarta1;
+        somaAtributosCarta2 += areaCarta2;
+        break;
+
+      case 4: //PIB
+        
+        comparaAtributo(pibCarta1, pibCarta2, "PIB", nomeCarta1, nomeCarta2, estadoCarta1, estadoCarta2);
+        
+        somaAtributosCarta1 += pibCarta1;
+        somaAtributosCarta2 += pibCarta2;
+        break;
+
+      case 5: // Densidade Populacional
+        
+        comparaAtributo(calculoDensidade(areaCarta1, populacaoCarta1), calculoDensidade(areaCarta2, populacaoCarta2), "Densidade Populacional",
+                                         nomeCarta1, nomeCarta2, estadoCarta1, estadoCarta2);
+        
+        somaAtributosCarta1 -= calculoDensidade(areaCarta1, populacaoCarta1);
+        somaAtributosCarta2 -= calculoDensidade(areaCarta2, populacaoCarta2);
+        break;
+
+      case 6: //PIB per Capita
+        
+        comparaAtributo(calculoPib(populacaoCarta1, pibCarta1), calculoPib(populacaoCarta2, pibCarta2), "PIB Per Capita", 
+                                   nomeCarta1, nomeCarta2, estadoCarta1, estadoCarta2);
+        
+        somaAtributosCarta1 += calculoPib(populacaoCarta1, pibCarta1);
+        somaAtributosCarta2 += calculoPib(populacaoCarta2, pibCarta2);
+        break;
+
+      case 7: //Super Poder
+        
+        comparaAtributo(calculoSuperPoder(populacaoCarta1, areaCarta1, pibCarta1, pontosTuristicosCarta1),
+                      calculoSuperPoder(populacaoCarta2, areaCarta2, pibCarta2, pontosTuristicosCarta2), 
+                      "Super Poder", nomeCarta1, nomeCarta2, estadoCarta1, estadoCarta2);
+        
+        somaAtributosCarta1 += calculoSuperPoder(populacaoCarta1, areaCarta1, pibCarta1, pontosTuristicosCarta1);
+        somaAtributosCarta2 += calculoSuperPoder(populacaoCarta2, areaCarta2, pibCarta2, pontosTuristicosCarta2);
+        break;
+
+      default:
+        printf("Opção selecionada inválida, favor escolher novamente: \n");
+        escolha1 = menuAtributos();
+        break;
+      }
+
+      printf("Atributo 2:\n");
+      int escolha2 = menuAtributos();
+
+      switch (escolha2)
+      {
+      case 1: //População
+        
+        comparaAtributo((float)populacaoCarta1, (float)populacaoCarta2, "População", nomeCarta1, nomeCarta2, estadoCarta1, estadoCarta2);
+        
+        somaAtributosCarta1 += populacaoCarta1;
+        somaAtributosCarta2 += populacaoCarta2;
+
+        
+        break;
+
+      case 2: // Pontos Turisticos
+        
+        comparaAtributo((float)pontosTuristicosCarta1, (float)pontosTuristicosCarta2, "Pontos Turísticos", nomeCarta1, nomeCarta2, estadoCarta1, estadoCarta2);
+        
+        somaAtributosCarta1 += pontosTuristicosCarta1;
+        somaAtributosCarta2 += pontosTuristicosCarta2;
+        break;
+
+      case 3: //Area
+        
+        comparaAtributo(areaCarta1, areaCarta2, "Área", nomeCarta1, nomeCarta2, estadoCarta1, estadoCarta2);
+        
+        somaAtributosCarta1 += areaCarta1;
+        somaAtributosCarta2 += areaCarta2;
+        break;
+
+      case 4: //PIB
+        
+        comparaAtributo(pibCarta1, pibCarta2, "PIB", nomeCarta1, nomeCarta2, estadoCarta1, estadoCarta2);
+        
+        somaAtributosCarta1 += pibCarta1;
+        somaAtributosCarta2 += pibCarta2;
+        break;
+
+      case 5: // Densidade Populacional
+        
+        comparaAtributo(calculoDensidade(areaCarta1, populacaoCarta1), calculoDensidade(areaCarta2, populacaoCarta2), "Densidade Populacional",
+                                         nomeCarta1, nomeCarta2, estadoCarta1, estadoCarta2);
+        
+        somaAtributosCarta1 -= calculoDensidade(areaCarta1, populacaoCarta1);
+        somaAtributosCarta2 -= calculoDensidade(areaCarta2, populacaoCarta2);
+        break;
+
+      case 6: //PIB per Capita
+        
+        comparaAtributo(calculoPib(populacaoCarta1, pibCarta1), calculoPib(populacaoCarta2, pibCarta2), "PIB Per Capita", 
+                                   nomeCarta1, nomeCarta2, estadoCarta1, estadoCarta2);
+        
+        somaAtributosCarta1 += calculoPib(populacaoCarta1, pibCarta1);
+        somaAtributosCarta2 += calculoPib(populacaoCarta2, pibCarta2);
+        break;
+
+      case 7: //Super Poder
+        
+        comparaAtributo(calculoSuperPoder(populacaoCarta1, areaCarta1, pibCarta1, pontosTuristicosCarta1),
+                      calculoSuperPoder(populacaoCarta2, areaCarta2, pibCarta2, pontosTuristicosCarta2), 
+                      "Super Poder", nomeCarta1, nomeCarta2, estadoCarta1, estadoCarta2);
+        
+        somaAtributosCarta1 += calculoSuperPoder(populacaoCarta1, areaCarta1, pibCarta1, pontosTuristicosCarta1);
+        somaAtributosCarta2 += calculoSuperPoder(populacaoCarta2, areaCarta2, pibCarta2, pontosTuristicosCarta2);
+        break;
+
+      default:
+        printf("Opção selecionada inválida, favor escolher novamente: \n");
+        escolha2 = menuAtributos();
+        break;
+      }
+
+      
+    
+      break;
+
+    case 4: //Voltar ao Menu Principal
       opcaoSelecionada = menuPrincipal();
       break;
-    case 4: //finalizar
+    case 5: //Finalizar
       break;
     default:
       printf("Opção selecionada inválida, favor escolher novamente: \n");
       opcaoSelecionada = menuPrincipal();
       break;
     }
-  } while (opcaoSelecionada != 4);
+  } while (opcaoSelecionada != 5);
 }
