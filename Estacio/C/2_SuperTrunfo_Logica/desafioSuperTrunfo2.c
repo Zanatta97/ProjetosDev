@@ -280,7 +280,7 @@ int main (){
       printf("Escolha dois atributos para realizar a comparação:\n\n");
 
       int escolha[] = {0,0};
-      char nomeAtributo[25][2] = {"", ""};
+      char nomeAtributo[2][25];
       
       printf("Atributo 1:\n");
       do {
@@ -309,7 +309,7 @@ int main (){
           
           somaAtributosCarta1 += populacaoCarta1;
           somaAtributosCarta2 += populacaoCarta2;
-          nomeAtributo[12][i] = "População";
+          strcpy(nomeAtributo[i], "População");
 
           break;
 
@@ -319,7 +319,7 @@ int main (){
           
           somaAtributosCarta1 += pontosTuristicosCarta1;
           somaAtributosCarta2 += pontosTuristicosCarta2;
-          nomeAtributo[19][i] = "Pontos Turísticos";
+          strcpy(nomeAtributo[i], "Pontos Turísticos");
 
           break;
 
@@ -329,7 +329,7 @@ int main (){
           
           somaAtributosCarta1 += areaCarta1;
           somaAtributosCarta2 += areaCarta2;
-          nomeAtributo[6][i] = "Área";
+          strcpy(nomeAtributo[i],"Área");
           break;
 
         case 4: //PIB
@@ -338,7 +338,7 @@ int main (){
           
           somaAtributosCarta1 += pibCarta1;
           somaAtributosCarta2 += pibCarta2;
-          nomeAtributo[4][i] = "PIB";
+          strcpy(nomeAtributo[i],"PIB");
           break;
 
         case 5: // Densidade Populacional
@@ -348,7 +348,7 @@ int main (){
           
           somaAtributosCarta1 -= calculoDensidade(areaCarta1, populacaoCarta1);
           somaAtributosCarta2 -= calculoDensidade(areaCarta2, populacaoCarta2);
-          nomeAtributo[23][i] = "Densidade Populacional";
+          strcpy(nomeAtributo[i],"Densidade Populacional");
           break;
 
         case 6: //PIB per Capita
@@ -358,7 +358,7 @@ int main (){
           
           somaAtributosCarta1 += calculoPib(populacaoCarta1, pibCarta1);
           somaAtributosCarta2 += calculoPib(populacaoCarta2, pibCarta2);
-          nomeAtributo[15][i] = "PIB Per Capita";
+          strcpy(nomeAtributo[i],"PIB Per Capita");
           break;
 
         case 7: //Super Poder
@@ -369,7 +369,7 @@ int main (){
           
           somaAtributosCarta1 += calculoSuperPoder(populacaoCarta1, areaCarta1, pibCarta1, pontosTuristicosCarta1);
           somaAtributosCarta2 += calculoSuperPoder(populacaoCarta2, areaCarta2, pibCarta2, pontosTuristicosCarta2);
-          nomeAtributo[12][i] = "Super Poder";
+          strcpy(nomeAtributo[i],"Super Poder");
           break;
 
         default:
@@ -377,8 +377,8 @@ int main (){
         }
       }
 
-      printf("atributo 1 %d\n", escolha[0]);
-      printf("atributo 2 %d\n", escolha[1]);
+      printf("atributo 1 - %s: %d\n",nomeAtributo[0], escolha[0]);
+      printf("atributo 2 - %s: %d\n",nomeAtributo[0], escolha[1]);
       printf("soma atributos carta 1 %.2f\n", somaAtributosCarta1);
       printf("soma atributos carta 2 %.2f\n", somaAtributosCarta2);
 
