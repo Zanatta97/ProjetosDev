@@ -281,6 +281,9 @@ int main (){
 
       int escolha[] = {0,0};
       char nomeAtributo[2][25];
+
+      somaAtributosCarta1 = 0;
+      somaAtributosCarta2 = 0;
       
       printf("Atributo 1:\n");
       do {
@@ -377,10 +380,20 @@ int main (){
         }
       }
 
-      printf("atributo 1 - %s: %d\n",nomeAtributo[0], escolha[0]);
-      printf("atributo 2 - %s: %d\n",nomeAtributo[0], escolha[1]);
-      printf("soma atributos carta 1 %.2f\n", somaAtributosCarta1);
-      printf("soma atributos carta 2 %.2f\n", somaAtributosCarta2);
+      printf("As somas dos atributos %s e %s são: \n\n", nomeAtributo[0], nomeAtributo[1]);
+      printf("Carta 1 - %s: \n %.2f\n\n",nomeCarta1, somaAtributosCarta1);
+      printf("Carta 2 - %s: \n %.2f\n\n",nomeCarta2, somaAtributosCarta2);
+      
+      if (somaAtributosCarta1 > somaAtributosCarta2){
+        printf("Carta 1 (%s) venceu com %.2f\n\n", nomeCarta1, somaAtributosCarta1);
+      } else if (somaAtributosCarta1 < somaAtributosCarta2)
+      {
+        printf("Carta 2 (%s) venceu com %.2f\n\n", nomeCarta2, somaAtributosCarta2);
+      } else {
+        printf("Empatou!!\n\n");
+      }
+
+      printf("\n===================================\n\n");
 
       opcaoSelecionada = menuPrincipal();
       break;
