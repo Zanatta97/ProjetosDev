@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Análise Casos - Campanha RC</title>
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="container__conteudo">
+            <img
+              src="img/LINX3D_laranja_RGB_Smaller.png"
+              alt="Logo Linx"
+              class="container__imagem-logo"
+            />
+            <div class="container__informacoes">
+                <div class="container__texto">
+                    <h1>
+                        Análise de Casos Aleatórios - <span class="container__texto-azul">Campanha RC</span>
+                    </h1>
+                    <h2>Digite a quandade prevista de casos encerrados para o Analista</h2>
+                </div>
+                <div class="container__form">
+                    <form id="numeroForm">
+                        <label for="numeroMaximo">Digite o valor:</label>
+                        <input
+                            type="number"
+                            id="numeroMaximo"
+                            name="numeroMaximo"
+                            min="2"
+                            required
+                            placeholder="Ex: 100"
+                        />
+                        <button type="submit">Gerar Números</button>
+                    </form>
+                    <div id="resultado">
+                        <h2>Resultado:</h2>
+                        <p id="numerosGerados"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="app.js" defer></script>
+  </body>
+</html>
