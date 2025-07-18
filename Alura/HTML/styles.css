@@ -1,0 +1,11 @@
+body {
+  background-color: black;
+  color: #f6f6f6;
+  position: absolute;
+  display: flexbox;
+  align-items: center;
+}
+
+strong {
+  color: #22d4fd;
+}
