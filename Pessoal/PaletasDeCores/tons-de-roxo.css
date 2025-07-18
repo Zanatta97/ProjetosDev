@@ -1,0 +1,13 @@
+var {
+  /* CSS HEX */
+  --ice-blue: #90fcf9ff;
+  --aero: #63b4d1ff;
+  --vista-blue: #7699d4ff;
+  --purpureus: #9448bcff;
+
+  /* CSS HSL */
+  --ice-blue: hsla(178, 95%, 78%, 1);
+  --aero: hsla(196, 54%, 60%, 1);
+  --vista-blue: hsla(218, 52%, 65%, 1);
+  --purpureus: hsla(279, 46%, 51%, 1);
+}
